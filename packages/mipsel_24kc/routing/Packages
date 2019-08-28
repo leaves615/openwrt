@@ -1,0 +1,503 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 18820
+Filename: ahcpd_0.53-2_mipsel_24kc.ipk
+Size: 19678
+SHA256sum: a034a521c08e50c94f5cbba1fffafab414ae406b2ea472f194a73a478021b19a
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: alfred
+Version: 2019.3-2
+Depends: libc, libnl-tiny, librt
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 1609
+Filename: alfred_2019.3-2_mipsel_24kc.ipk
+Size: 2811
+SHA256sum: 48e098caad104ebfb24643c4ed5a853025c09a2195bc6798c3fe4e06b916528d
+Description:  alfred is a user space daemon for distributing arbitrary local information over
+ the mesh/network in a decentralized fashion. This data can be anything which
+ appears to be useful - originally designed to replace the batman-adv
+ visualization (vis), you may distribute hostnames, phone books, administration
+ information, DNS information, the local weather forecast ...
+ 
+ alfred runs as daemon in the background of the system. A user may insert
+ information by using the alfred binary on the command line, or use special
+ programs to communicate with alfred (done via unix sockets). alfred then takes
+ care of distributing the local information to other alfred servers on other
+ nodes. This is done via IPv6 link-local multicast, and does not require any
+ configuration. A user can request data from alfred, and will receive the
+ information available from all alfred servers in the network.
+
+Package: babel-pinger
+Version: 0.1-1
+Depends: libc, librt
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 141
+Filename: babel-pinger_0.1-1_mipsel_24kc.ipk
+Size: 931
+SHA256sum: 1e177a15e375f1ae6e56c379de7695352e31771659de1ce0a9736bb3c68c7549
+Description:  Babel-pinger is a hack to export a default route into Babel for people
+ using DHCP to configure their routers rather than speaking to their
+ upstream provider with a proper routing protocol.
+
+Package: babeld
+Version: 1.8.4-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3818
+Filename: babeld_1.8.4-1_mipsel_24kc.ipk
+Size: 4843
+SHA256sum: 14c640828dba72dcd2a1e43b3a3e6d78df6a3161f7c1a394b9511b4e75911ece
+Description:  Babel is a loop-avoiding distance-vector routing protocol roughly based
+ on DSDV and AODV, but with provisions for link cost estimation and
+ redistribution of routes from other routing protocols.
+ While it is optimised for wireless mesh networks, Babel will also work
+ efficiently on wired networks. It will generate between 1.2 and 2.4 times
+ the amount of routing traffic that RIPng would generate, while
+ never counting to infinity.
+
+Package: batctl-default
+Version: 2019.3-0
+Depends: libc, libnl-tiny, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 147
+Filename: batctl-default_2019.3-0_mipsel_24kc.ipk
+Size: 1087
+SHA256sum: 04f908ee93b4dfba838954069cae65df761858315db3a7aae15f069e454d4ecf
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2019.3 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
+Package: bmx7-iwinfo
+Version: r2019030802-1
+Depends: libc, bmx7, libiwinfo20181126
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4062
+Filename: bmx7-iwinfo_r2019030802-1_mipsel_24kc.ipk
+Size: 4812
+SHA256sum: 8c56464cfc47f5ae3f17357f69962e1e0205501e5bcf131ad2cf131fe548cbc7
+Description:  link characteristics plugin based on libiwinfo (recommended!)
+
+Package: bmx7-json
+Version: r2019030802-1
+Depends: libc, bmx7, libjson-c4
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7365
+Filename: bmx7-json_r2019030802-1_mipsel_24kc.ipk
+Size: 8158
+SHA256sum: 5120b8077d5dadd71908d400b77151a2e28790647a103a1a8579b5c87003fe08
+Description:  json plugin based on json-c
+
+Package: bmx7-sms
+Version: r2019030802-1
+Depends: libc, bmx7
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5280
+Filename: bmx7-sms_r2019030802-1_mipsel_24kc.ipk
+Size: 6008
+SHA256sum: 31fd555bf1cfaa8fce618395b3c7511d673a645e76bbc81d0b720b9aae96d5e2
+Description:  sms plugin
+
+Package: bmx7-table
+Version: r2019030802-1
+Depends: libc, bmx7, bmx7-tun
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 8971
+Filename: bmx7-table_r2019030802-1_mipsel_24kc.ipk
+Size: 9734
+SHA256sum: 9ad2f31ca65bec006a98edeec0cf815c22413c02a6700b78b583f8f9976a2f41
+Description:  plugin to announce routes from tables via tunnels
+
+Package: bmx7-topology
+Version: r2019030802-1
+Depends: libc, bmx7
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4997
+Filename: bmx7-topology_r2019030802-1_mipsel_24kc.ipk
+Size: 5728
+SHA256sum: 9f3e3cec942054cb207d889f9b112e3fcf237f476cf03b8d29e88c579be7061d
+Description:  topology plugin
+
+Package: bmx7-tun
+Version: r2019030802-1
+Depends: libc, bmx7, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 24138
+Filename: bmx7-tun_r2019030802-1_mipsel_24kc.ipk
+Size: 24863
+SHA256sum: 22407b08f869aff265e71377eb506e5ea4559117bfa51e484458658a1f3b29bf
+Description:  ipip-based tunnel plugin (recommended!)
+
+Package: bmx7-uci-config
+Version: r2019030802-1
+Depends: libc, bmx7, libuci20130104
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7639
+Filename: bmx7-uci-config_r2019030802-1_mipsel_24kc.ipk
+Size: 8459
+SHA256sum: 6ff15a8b00317b6b477250dc6b42d753cd1ed3d0907e8378140d093ba6591f65
+Description:  configuration plugin based on uci (recommended!)
+
+Package: bmx7
+Version: r2019030802-1
+Depends: libc, zlib, libmbedtls12, libiwinfo20181126
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 156580
+Filename: bmx7_r2019030802-1_mipsel_24kc.ipk
+Size: 157477
+SHA256sum: f6f63bf03855dc282a3c01c6f2745cdf426dc6b24603517fabe0c3de3495cbd5
+Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
+
+Package: mcproxy
+Version: 2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-2
+Depends: libc, libpthread, libstdcpp6
+License: GPL-2.0+
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2433
+Filename: mcproxy_2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-2_mipsel_24kc.ipk
+Size: 3411
+SHA256sum: 5897c3d79f0fb56130a49db3efbaba5819f41294ab9eb38a3ffbb5502874e057
+Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+ It operates on the kernel tables for multicast routing and allows for multiple instantiations,
+ as well as dynamically changing downstream interfaces.
+
+Package: mrd6
+Version: 2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-2
+Depends: libc, libstdcpp6
+License: GPL-2.0+
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 688
+Filename: mrd6_2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-2_mipsel_24kc.ipk
+Size: 1758
+SHA256sum: 578ca4ba697be657038bca627b129355572a4abf06b81c89e2f8fc7503b4d1a3
+Description:  Multicast is becoming a major component in next generation networks, used 
+ in several scenarios, from video broadcasting to multimedia conferencing. 
+ In order to be implemented, new technology needs supporting hardware and 
+ software across a set of devices and systems. MRD6 is an implementation of 
+ a modular IPv6 Multicast Routing Framework for the Linux operating system 
+ and provides MLDv2 (as well as MLDv1), PIM-SM and MBGP support.
+
+Package: ndppd
+Version: 0.2.5-1
+Depends: libc, uclibcxx
+License: GPL-3.0+
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 459
+Filename: ndppd_0.2.5-1_mipsel_24kc.ipk
+Size: 1443
+SHA256sum: 9d4739875393ad6f175048756ac836806d372e4f8e0293d63a3f3a13a7182a70
+Description:  ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery
+ Protocol) messages between interfaces.  ndppd currently only supports Neighbor
+ Solicitation Messages and Neighbor Advertisement Messages.
+ 
+ The ndp_proxy provided by Linux doesn't support listing proxies, and only hosts
+ are supported.  No subnets.  ndppd solves this by listening for Neighbor
+ Solicitation messages on an interface, then query the internal interfaces for
+ that target IP before finally sending a Neighbor Advertisement message.
+
+Package: olsrd-mod-arprefresh
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2066
+Filename: olsrd-mod-arprefresh_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 2827
+SHA256sum: 067f49316f68cca745d140315c509a50ae3bcdeaa2c6184d60a7d28e72fbec79
+Description:  Kernel ARP cache refresh plugin
+
+Package: olsrd-mod-bmf
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd, kmod-tun
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 11161
+Filename: olsrd-mod-bmf_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 11951
+SHA256sum: 183d73f5433cad4111c6965644d38562324ecbcbca720b5291f52fff233d07bf
+Description:  Basic multicast forwarding plugin
+
+Package: olsrd-mod-dot-draw
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3710
+Filename: olsrd-mod-dot-draw_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 4446
+SHA256sum: 02637a605e3c42f6f4e0c4c0b64c06539c55b7b3bb25c04debcb09d443c4e48f
+Description:  Dot topology information plugin
+
+Package: olsrd-mod-dyn-gw-plain
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2227
+Filename: olsrd-mod-dyn-gw-plain_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 3000
+SHA256sum: e68378c7d6388c16d0e9bbe7f4f5c50622c08b4fc67ff1d3bfae7cba6c6e67b1
+Description:  Dynamic internet gateway plain plugin
+
+Package: olsrd-mod-dyn-gw
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3796
+Filename: olsrd-mod-dyn-gw_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 4531
+SHA256sum: 49b63d9d62cb9dbdb0c7ee9f67bf1b41a39f08b3e6887d2a71254400c709905e
+Description:  Dynamic internet gateway plugin
+
+Package: olsrd-mod-httpinfo
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 29968
+Filename: olsrd-mod-httpinfo_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 30758
+SHA256sum: 771993e4369d69cbee3e0702b3e75df9eeb472429b72dde88a4ee7a075791738
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-jsoninfo
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 21152
+Filename: olsrd-mod-jsoninfo_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 21944
+SHA256sum: d28b52ced1c8b16d8c7a33969013e2f5c08094a0eca6f7c35cc4d9daf66d4978
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-mdns
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 8361
+Filename: olsrd-mod-mdns_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 9168
+SHA256sum: 5a3038e9ab7f3e663321914ef7a5c05ebe41dbea0645d3062352d7ea57565719
+Description:  MDNS/Zeroconf/Bonjour packet distribution 
+
+Package: olsrd-mod-nameservice
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 10197
+Filename: olsrd-mod-nameservice_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 10943
+SHA256sum: b90ede4f52d7caf4fb35dd0217611ba4d4c42bd2cf660216a820e6f6c9eaede4
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-netjson
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 12160
+Filename: olsrd-mod-netjson_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 12927
+SHA256sum: 81ed27cf542d70c0a9064af94e99229c29c89ee307abdd0b3f6aeee14343ae59
+Description:  netjson plugin with JSON output
+
+Package: olsrd-mod-p2pd
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7838
+Filename: olsrd-mod-p2pd_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 8629
+SHA256sum: 0695565fd70b67f042a9e4253d282e03c9309658f29ace973652c9a53874bc8a
+Description:  Peer to Peer Discovery plugin
+
+Package: olsrd-mod-pgraph
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2863
+Filename: olsrd-mod-pgraph_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 3593
+SHA256sum: c694f48779b44151522c7ed6d05b4ce260ba0ca51341b83340d1870a08244a50
+Description:  output network topology for pgraph
+
+Package: olsrd-mod-pud
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd, libgps
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 58329
+Filename: olsrd-mod-pud_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 59085
+SHA256sum: 2c950debc70cc999c3058e467182ed1262642495042a507d21ced612876fdf44
+Description:  Position Update Distribution plugin
+
+Package: olsrd-mod-quagga
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5915
+Filename: olsrd-mod-quagga_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 6643
+SHA256sum: d47042d988f63b42ef55aca073393cd734eca6cdbae9ed296e7771badb2ee126
+Description:  Quagga plugin
+
+Package: olsrd-mod-secure
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 9725
+Filename: olsrd-mod-secure_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 10524
+SHA256sum: c1657eda10a9eb7e2fa79ec491fc7fdcca66c950fc3e7bb40305e15e3de39499
+Description:  Message signing plugin to secure routing domain
+
+Package: olsrd-mod-sgwdynspeed
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4296
+Filename: olsrd-mod-sgwdynspeed_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 5080
+SHA256sum: b43a5dd5725e8d42645672e92321cab9874bb42de0f55cb015909e837cc3ba89
+Description:  Smart Gateway dynamic speed plugin
+
+Package: olsrd-mod-txtinfo
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 13562
+Filename: olsrd-mod-txtinfo_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 14279
+SHA256sum: e35edbb0fa6b00addb6121125cfa5b56b651092d55024cd72e583015eb3d3726
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-watchdog
+Version: 0.9.8-v0.9.8
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 1772
+Filename: olsrd-mod-watchdog_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 2492
+SHA256sum: 50c7d1bd248a6b8acb3234e3f28f0584f1455084fa4ffe64b7653327d398fb75
+Description:  Watchdog plugin
+
+Package: olsrd
+Version: 0.9.8-v0.9.8
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 125594
+Filename: olsrd_0.9.8-v0.9.8_mipsel_24kc.ipk
+Size: 126429
+SHA256sum: f6fd3e860422b6c61b74f34c2ba42198405ccd6cb806d437d3c5b18d5cea1613
+Description:  OLSR (Optimized Link State Routing) daemon
+
+Package: oonf-init-scripts
+Version: 0.9.1-r3
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 1392
+Filename: oonf-init-scripts_0.9.1-r3_mipsel_24kc.ipk
+Size: 2123
+SHA256sum: 7ff1bcdc1b7b1ece41634d22eefe027ce19ba32116b41e71b7b111396099f639
+Description:  Common OONF startup scripts
+
+Package: prince
+Version: v0.4-1
+Depends: libc, libjson-c4, libpthread
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 28525
+Filename: prince_v0.4-1_mipsel_24kc.ipk
+Size: 29461
+SHA256sum: 7d66c84fa172298b8793afefcb9ca3f6a346143c7d4ac3d4e0fb5960107a39dc
+Description:  Prince is an open source implementation of the PopRouting Algorithm.
+ It has been developed as a Google Summer of Code Project in collaboration with Freifunk and the University of Trento.
+ 
+ Prince fetches topology data from a Link State routing daemon (OONF, OLSR, OSPF, etc),
+ calculates the betweenness centrality using the topology and then computes the
+ the timers' optimal values using these data. At the end of the computation the timers are pushed back to the routing daemon.
+ Since v0.4 it supports both OONF and OLSRd.
+
+Package: vis
+Version: 1440-2
+Depends: libc, libpthread
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 629
+Filename: vis_1440-2_mipsel_24kc.ipk
+Size: 1424
+SHA256sum: 50271c87f3bab080b5046040e1990641fa6234d2d2c1a658d673f59db13409f9
+Description:  visualization server for B.A.T.M.A.N. layer 3
+

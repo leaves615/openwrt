@@ -1,0 +1,117 @@
+Package: bcg729
+Version: 1.0.4-3
+Depends: libc
+Source: feeds/telephony/libs/bcg729
+SourceName: bcg729
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: mipsel_24kc
+Installed-Size: 139
+Filename: bcg729_1.0.4-3_mipsel_24kc.ipk
+Size: 1027
+SHA256sum: 7089b915a3e86a0824674e5850436ef4f1841b8597f9b10753854d4e2446df4a
+Description:  Bcg729 is a software G729A encoder and decoder library written in C, developed
+ by Belledonne Communications, the company supporting the Linphone project.
+ It was written from scratch and is NOT a derivative work of ITU reference
+ source code in any kind.
+
+Package: libctb
+Version: 0.16-2
+Depends: libc, uclibcxx
+Source: feeds/telephony/libs/libctb
+SourceName: libctb
+License: LGPL
+LicenseFiles: build/COPYING
+Section: libs
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: mipsel_24kc
+Installed-Size: 8941
+Filename: libctb_0.16-2_mipsel_24kc.ipk
+Size: 9716
+SHA256sum: 5c9411e236e9fae3cf369872a7530c7f3663920033d179020cccf77665b4f150
+Description:  Multiplatform library for different interfaces.
+
+Package: libosip2
+Version: 5.0.0-3
+Depends: libc, librt
+Source: feeds/telephony/libs/libosip2
+SourceName: libosip2
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 60087
+Filename: libosip2_5.0.0-3_mipsel_24kc.ipk
+Size: 60938
+SHA256sum: b4ead32416796669e99822cef3d218117ffbaaf57a7807278be0e6d7777028f3
+Description:  GNU oSIP library, a Session Initiation Protocol (SIP) implementation.
+
+Package: libsrtp2
+Version: 2.2.0-1
+Depends: libc
+Source: feeds/telephony/libs/libsrtp2
+SourceName: libsrtp2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mipsel_24kc
+Installed-Size: 36397
+Filename: libsrtp2_2.2.0-1_mipsel_24kc.ipk
+Size: 36716
+SHA256sum: 3d3261630f3a1769ec069d23be0821f8a9e5524154840ddfe406dbae5658bafa
+Description:  Open-source implementation of the Secure Real-time Transport
+ Protocol (SRTP) originally authored by Cisco Systems, Inc.
+ It is available under a BSD-style license.
+
+Package: miax
+Version: 1.4-2
+Depends: libc, libpthread
+Source: feeds/telephony/net/miax
+SourceName: miax
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 29769
+Filename: miax_1.4-2_mipsel_24kc.ipk
+Size: 30546
+SHA256sum: 4d562ac0859f996e392af3dbffc8707ff60ea1a89a8a6d807efa8277bbb3f89a
+Description:  miax is a console iax (asterisk) client, it can work with 
+ a soundcard as a normal voip phone, taking input/output from 
+ keyboard or analog/gsm/isdn modem.
+
+Package: rtpproxy-mod-acct-csv
+Version: 2.1.0-20170914-4
+Depends: libc, rtpproxy
+Source: feeds/telephony/net/rtpproxy
+SourceName: rtpproxy-mod-acct-csv
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mipsel_24kc
+Installed-Size: 3632
+Filename: rtpproxy-mod-acct-csv_2.1.0-20170914-4_mipsel_24kc.ipk
+Size: 4377
+SHA256sum: 10eb26ea24b36bc77fcfd9d4735d1b6799219b155c188a5129fb621db1b85b05
+Description:  RTPproxy accounting module
+
+Package: rtpproxy
+Version: 2.1.0-20170914-4
+Depends: libc, libpthread, librt
+Source: feeds/telephony/net/rtpproxy
+SourceName: rtpproxy
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mipsel_24kc
+Installed-Size: 57930
+Filename: rtpproxy_2.1.0-20170914-4_mipsel_24kc.ipk
+Size: 58978
+SHA256sum: 9512dc7183692e4a9964e0488aa9e0598f29eaafd91ae24740fca11ce27c0a93
+Description:  RTP (Realtime Transport Protocol) proxy
+
