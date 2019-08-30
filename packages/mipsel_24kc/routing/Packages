@@ -42,10 +42,10 @@ Version: 0.1-1
 Depends: libc, librt
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 141
+Installed-Size: 3517
 Filename: babel-pinger_0.1-1_mipsel_24kc.ipk
-Size: 931
-SHA256sum: 1e177a15e375f1ae6e56c379de7695352e31771659de1ce0a9736bb3c68c7549
+Size: 4306
+SHA256sum: aea921a5265fbeb46f388e9875c0839b7419ddb0fc2f13cd1b678c1163020666
 Description:  Babel-pinger is a hack to export a default route into Babel for people
  using DHCP to configure their routers rather than speaking to their
  upstream provider with a proper routing protocol.
@@ -56,10 +56,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3818
+Installed-Size: 47347
 Filename: babeld_1.8.4-1_mipsel_24kc.ipk
-Size: 4843
-SHA256sum: 14c640828dba72dcd2a1e43b3a3e6d78df6a3161f7c1a394b9511b4e75911ece
+Size: 48535
+SHA256sum: 7ddef2a2a07db4b1e46a26058f47735fb866ef4c6b1ae1f076a2bb412448dcd9
 Description:  Babel is a loop-avoiding distance-vector routing protocol roughly based
  on DSDV and AODV, but with provisions for link cost estimation and
  redistribution of routes from other routing protocols.
@@ -188,10 +188,10 @@ Depends: libc, libpthread, libstdcpp6
 License: GPL-2.0+
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2433
+Installed-Size: 102946
 Filename: mcproxy_2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-2_mipsel_24kc.ipk
-Size: 3411
-SHA256sum: 5897c3d79f0fb56130a49db3efbaba5819f41294ab9eb38a3ffbb5502874e057
+Size: 103984
+SHA256sum: c7cca558538c8aae45519432b4a8e3808889492d109019bdc71775a0be1bb920
 Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
  It operates on the kernel tables for multicast routing and allows for multiple instantiations,
  as well as dynamically changing downstream interfaces.
@@ -202,10 +202,10 @@ Depends: libc, libstdcpp6
 License: GPL-2.0+
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 688
+Installed-Size: 280177
 Filename: mrd6_2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-2_mipsel_24kc.ipk
-Size: 1758
-SHA256sum: 578ca4ba697be657038bca627b129355572a4abf06b81c89e2f8fc7503b4d1a3
+Size: 281003
+SHA256sum: 58d13b7832ac4ca9fea7cbba2af60386be2b1642ca211d5faf7519b591b89bf0
 Description:  Multicast is becoming a major component in next generation networks, used 
  in several scenarios, from video broadcasting to multimedia conferencing. 
  In order to be implemented, new technology needs supporting hardware and 
@@ -495,9 +495,9 @@ Depends: libc, libpthread
 License: GPL-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 629
+Installed-Size: 9336
 Filename: vis_1440-2_mipsel_24kc.ipk
-Size: 1424
-SHA256sum: 50271c87f3bab080b5046040e1990641fa6234d2d2c1a658d673f59db13409f9
+Size: 10121
+SHA256sum: d044e0d743e99cccc8fce016be6c34422ccdc9f40cf05d64369116e46dc80c53
 Description:  visualization server for B.A.T.M.A.N. layer 3
 

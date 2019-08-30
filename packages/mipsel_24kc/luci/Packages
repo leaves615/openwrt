@@ -595,6 +595,97 @@ Size: 6786
 SHA256sum: f3e748eac309a8b376f89aaab899effba77f75766b3f5484d2687543d6f72d17
 Description:  LuCI Support for shadowsocks-libev
 
+Package: luci-app-shairplay
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, shairplay
+Section: luci
+Architecture: all
+Installed-Size: 1390
+Filename: luci-app-shairplay_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2156
+SHA256sum: 899d50ceda1004a52b8f2b67170ccde8ecf5dbe9bdbb93ed73e75f0b2a578ff1
+Description:  LuCI Support for Shairplay
+
+Package: luci-app-siitwizard
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, kmod-siit
+Section: luci
+Architecture: all
+Installed-Size: 3753
+Filename: luci-app-siitwizard_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4484
+SHA256sum: ff5a95ebd5c9af761acf9b0c8eeb5cf7b95e21e5ba0805fa1fef47233906723f
+Description:  SIIT IPv4-over-IPv6 configuration wizard
+
+Package: luci-app-simple-adblock
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-mod-admin-full, simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 4086
+Filename: luci-app-simple-adblock_git-19.237.58470-6f114fb-34_all.ipk
+Size: 4941
+SHA256sum: 059d4df10ef09976787ac272a1273b8e50b3e329b497ef6db242b17b0be7538d
+Description:  Provides Web UI for simple-adblock service.
+
+Package: luci-app-snmpd
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1327
+Filename: luci-app-snmpd_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2125
+SHA256sum: b19b37791f3b804f1608bfc59f87270185ce3d9ad4ddc53d7500ac4510f4176a
+Description:  Some common net-snmp config items. In no way is this comprehensive.
+
+Package: luci-app-splash
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-lib-nixio, luci-lib-iptparser, tc, kmod-sched, iptables-mod-nat-extra, iptables-mod-ipopt
+Section: luci
+Architecture: all
+Installed-Size: 16748
+Filename: luci-app-splash_git-19.237.58470-6f114fb-1_all.ipk
+Size: 17567
+SHA256sum: 9cbf8d4e472ae8b53a061e904f6a57b936857ae4c5b9b3e32d0ff84cce528761
+Description:  Freifunk DHCP-Splash application
+
+Package: luci-app-squid
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-mod-admin-full, squid
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1157
+Filename: luci-app-squid_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1942
+SHA256sum: 69caa9b2794aa27fa70739bd658a2854973dc50c0f72b8367dc87a65bf90ce89
+Description:  Squid LuCI Interface
+
+Package: luci-app-statistics
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-lib-iptparser, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
+Section: luci
+Architecture: all
+Installed-Size: 32053
+Filename: luci-app-statistics_git-19.237.58470-6f114fb-1_all.ipk
+Size: 32949
+SHA256sum: 2c390bbc2f365026169ca6de23b7c8064492720d012cbd6d1d36c202818f5aa1
+Description:  LuCI Statistics Application
+
+Package: luci-app-tinyproxy
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 3189
+Filename: luci-app-tinyproxy_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3909
+SHA256sum: 231a31289be0c428fc702e1c944d877b824b5d25c6738a0c69555b6a4ca3fbad
+Description:  Tinyproxy - HTTP(S)-Proxy configuration
+
 Package: luci-app-transmission
 Version: git-19.237.58470-6f114fb-1
 Depends: libc, luci-lib-ipkg
@@ -606,6 +697,51 @@ Size: 4183
 SHA256sum: afb32745fe6b5d0ba9cf9e1392b625a090985ed0594f60d79ee18909413726de
 Description:  LuCI Support for Transmission
 
+Package: luci-app-travelmate
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, travelmate, luci-lib-jsonc
+Section: luci
+Architecture: all
+Installed-Size: 10618
+Filename: luci-app-travelmate_git-19.237.58470-6f114fb-1_all.ipk
+Size: 11429
+SHA256sum: 311c885e17ade64e5295e19d449cc6c6bb0d83a69c80f271d30a8c91642f1343
+Description:  LuCI support for Travelmate
+
+Package: luci-app-udpxy
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, udpxy
+Section: luci
+Architecture: all
+Installed-Size: 1422
+Filename: luci-app-udpxy_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2185
+SHA256sum: 2e0c176f8681d5809e60f9a7f14b6e9c450e388ae81b80368392e13fdb77c6f3
+Description:  LuCI Support for udpxy
+
+Package: luci-app-uhttpd
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2870
+Filename: luci-app-uhttpd_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3656
+SHA256sum: 43d8b2b192915256687acd36cd8ae075394b93b17ba5b97a5ca5f5d79a33ab99
+Description:  uHTTPd Webserver Configuration
+
+Package: luci-app-unbound
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, unbound-daemon
+Section: luci
+Architecture: all
+Installed-Size: 8223
+Filename: luci-app-unbound_git-19.237.58470-6f114fb-1_all.ipk
+Size: 9064
+SHA256sum: 23deb4f28b81aa69c91743b076eda085e5e54d098d3147db258f09c4869f2f3f
+Description:  Unbound Recursive DNS Resolver Configuration
+
 Package: luci-app-upnp
 Version: git-19.237.58470-6f114fb-1
 Depends: libc, miniupnpd
@@ -616,6 +752,73 @@ Filename: luci-app-upnp_git-19.237.58470-6f114fb-1_all.ipk
 Size: 4348
 SHA256sum: 3710635c2fc32d3393f28a531658c19d0f1ceb2dcd76c9d18ed1ce1ed9a5cc72
 Description:  Universal Plug & Play configuration module
+
+Package: luci-app-vnstat
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, vnstat, vnstati
+Section: luci
+Architecture: all
+Installed-Size: 2249
+Filename: luci-app-vnstat_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3032
+SHA256sum: d4cc492de8136be0ab84fefde2cbbd0eb943e94d70fcfbc843a36f6955511deb
+Description:  LuCI Support for VnStat
+
+Package: luci-app-vpnbypass
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci, vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1374
+Filename: luci-app-vpnbypass_git-19.237.58470-6f114fb-4_all.ipk
+Size: 2219
+SHA256sum: 19ed709baa4b42c6c07ebacccdb69e71abbc1e533fc9ef0f4390051c8fd21cf7
+Description:  Provides Web UI for VPNBypass service.
+
+Package: luci-app-watchcat
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1428
+Filename: luci-app-watchcat_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2189
+SHA256sum: 44a764c859083bc0a1417c1b0bdd173b0576a7bb9fc48e74b1bd166890564721
+Description:  LuCI Support for Watchcat
+
+Package: luci-app-wifischedule
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 3153
+Filename: luci-app-wifischedule_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3881
+SHA256sum: c1f74ee5d7ef9b519aa126610e9c465f29ae16180b3c680d767256ece298527c
+Description:  Turns WiFi on and off according to a schedule
+
+Package: luci-app-wireguard
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, wireguard-tools, kmod-wireguard, luci-proto-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 3328
+Filename: luci-app-wireguard_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4049
+SHA256sum: 2090a641f8a9ef5d037b27f4e1c9391c5aaf9b25411a5c04e3fb21885992fdf3
+Description:  WireGuard Status
+
+Package: luci-app-wol
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, etherwake
+Section: luci
+Architecture: all
+Installed-Size: 1507
+Filename: luci-app-wol_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2240
+SHA256sum: 01dd0969aab82df7cbb5b9ea8fa868f77fbdd069084a62b77c7c980b6672138b
+Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
 Version: git-19.237.58470-6f114fb-1
@@ -6752,6 +6955,1005 @@ Size: 3450
 SHA256sum: 68cb530e1e1763dcbfb1c0b1ebb34bc667688637293fc02b9ae42e96e8f23486
 Description:  Translation for luci-app-shadowsocks-libev - 中文 (Chinese)
 
+Package: luci-i18n-shairplay-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-shairplay
+Section: luci
+Architecture: all
+Installed-Size: 686
+Filename: luci-i18n-shairplay-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1501
+SHA256sum: 37f45d4f09da3f37822237db3bc082db67942190a7efbd50a8c9ba34f953e873
+Description:  Translation for luci-app-shairplay - Español (Spanish)
+
+Package: luci-i18n-shairplay-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-shairplay
+Section: luci
+Architecture: all
+Installed-Size: 759
+Filename: luci-i18n-shairplay-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1586
+SHA256sum: 32591490c56d42629752b969507d91f21d44dfb76816611d492992a32676401f
+Description:  Translation for luci-app-shairplay - 日本語 (Japanese)
+
+Package: luci-i18n-shairplay-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-shairplay
+Section: luci
+Architecture: all
+Installed-Size: 730
+Filename: luci-i18n-shairplay-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1558
+SHA256sum: d1c0809211b9ef7a461a740f4eb070e4021c1e95a78db91ed5974658d9835388
+Description:  Translation for luci-app-shairplay - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-shairplay-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-shairplay
+Section: luci
+Architecture: all
+Installed-Size: 767
+Filename: luci-i18n-shairplay-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1590
+SHA256sum: 2c380605df4e14a4c5678d26049750317268d855438319b913d843dfa15ac8d5
+Description:  Translation for luci-app-shairplay - Русский (Russian)
+
+Package: luci-i18n-shairplay-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-shairplay
+Section: luci
+Architecture: all
+Installed-Size: 725
+Filename: luci-i18n-shairplay-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1543
+SHA256sum: 2447363d9beca26a0358fedea620c828ade15aa38ca20e9a4c7025ace43723dd
+Description:  Translation for luci-app-shairplay - 中文 (Chinese)
+
+Package: luci-i18n-shairplay-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-shairplay
+Section: luci
+Architecture: all
+Installed-Size: 728
+Filename: luci-i18n-shairplay-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1560
+SHA256sum: b63e3aedac011de7932ecee4a0954ca0e7d22ca1f36492c338255724e4a976c7
+Description:  Translation for luci-app-shairplay - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-simple-adblock-es
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1956
+Filename: luci-i18n-simple-adblock-es_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2826
+SHA256sum: 345b39be31cb27a1946041d8e112c4f4c177bdd619d747f272a23f6fbacf29cc
+Description:  Translation for luci-app-simple-adblock - Español (Spanish)
+
+Package: luci-i18n-simple-adblock-ja
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1620
+Filename: luci-i18n-simple-adblock-ja_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2501
+SHA256sum: a42eecb9f58fecf4c32344951c4ac48a572e85aef58e7ba7dff7de8a255f528d
+Description:  Translation for luci-app-simple-adblock - 日本語 (Japanese)
+
+Package: luci-i18n-simple-adblock-pt-br
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1601
+Filename: luci-i18n-simple-adblock-pt-br_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2487
+SHA256sum: 91d8896a447a3093f398e3179395463c28e00170e907d3907142e603313d5eba
+Description:  Translation for luci-app-simple-adblock - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-simple-adblock-pt
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1146
+Filename: luci-i18n-simple-adblock-pt_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2012
+SHA256sum: 6306fa57bbe9ce69e5197ba73ec6dfbf907c359faff6984af95498ad938782b8
+Description:  Translation for luci-app-simple-adblock - Português (Portuguese)
+
+Package: luci-i18n-simple-adblock-ru
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1285
+Filename: luci-i18n-simple-adblock-ru_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2168
+SHA256sum: cd1282a95af72b9a2817ba9ec2b7bafc83ac5675a957ff63436c7a1d0bf0425a
+Description:  Translation for luci-app-simple-adblock - Русский (Russian)
+
+Package: luci-i18n-simple-adblock-sv
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 794
+Filename: luci-i18n-simple-adblock-sv_git-19.237.58470-6f114fb-34_all.ipk
+Size: 1645
+SHA256sum: cb66ddfac5494752fe29cd46dd8e1b528507685f0c3011a8bed8791bedc33edf
+Description:  Translation for luci-app-simple-adblock - Svenska (Swedish)
+
+Package: luci-i18n-simple-adblock-zh-cn
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1469
+Filename: luci-i18n-simple-adblock-zh-cn_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2352
+SHA256sum: 1b96f45394d2dcf8d557d86edcd48e8e66e99745ad1f305ab0f241231a58520d
+Description:  Translation for luci-app-simple-adblock - 中文 (Chinese)
+
+Package: luci-i18n-simple-adblock-zh-tw
+Version: git-19.237.58470-6f114fb-34
+Depends: libc, luci-app-simple-adblock
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 1484
+Filename: luci-i18n-simple-adblock-zh-tw_git-19.237.58470-6f114fb-34_all.ipk
+Size: 2379
+SHA256sum: 80dcb16729d46cb232cb31d43b6d2db8f8ba29fcace00932cc206e1311f575ee
+Description:  Translation for luci-app-simple-adblock - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-splash-ca
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 2428
+Filename: luci-i18n-splash-ca_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3246
+SHA256sum: 0d2f63d55ca26030fb3aaa7a1c3cdeffaed067b94d4bd11f2a0176a715792c3f
+Description:  Translation for luci-app-splash - Català (Catalan)
+
+Package: luci-i18n-splash-cs
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 2352
+Filename: luci-i18n-splash-cs_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3171
+SHA256sum: aea18ab7f30589b0f910137a49a7c366b14b472c56af13a19eb97f418b60c5f9
+Description:  Translation for luci-app-splash - Čeština (Czech)
+
+Package: luci-i18n-splash-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 3975
+Filename: luci-i18n-splash-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4758
+SHA256sum: 65f8be1abd9a7eb8887e249fa60951d2ebe9856465def33641d1c694cec6003c
+Description:  Translation for luci-app-splash - Deutsch (German)
+
+Package: luci-i18n-splash-el
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 513
+Filename: luci-i18n-splash-el_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1335
+SHA256sum: 7e5ea0cddb5c88575084c1b96096a695e61719c8611c7255f069b04752442a7d
+Description:  Translation for luci-app-splash - Ελληνικά (Greek)
+
+Package: luci-i18n-splash-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-splash-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1094
+SHA256sum: 1b5636e731465a4a3f3ce79a703d5f99dc3fedea7a24937a12074f4ad80a124c
+Description:  Translation for luci-app-splash - English
+
+Package: luci-i18n-splash-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 3650
+Filename: luci-i18n-splash-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4432
+SHA256sum: 71fd6749f960c1cdc090d2f6393b35fe339fb8bf31622ecbbebf13a15ffcb921
+Description:  Translation for luci-app-splash - Español (Spanish)
+
+Package: luci-i18n-splash-fr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 1670
+Filename: luci-i18n-splash-fr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2486
+SHA256sum: 7b12c10fdd39921b75c946d13b75b573c3601a02159a1c54ce27c9f132674ed1
+Description:  Translation for luci-app-splash - Français (French)
+
+Package: luci-i18n-splash-he
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 1654
+Filename: luci-i18n-splash-he_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2493
+SHA256sum: e077ab98350b0a0ffbe87091cb9585e2f546ea22bb88a07296fb019d534ceb41
+Description:  Translation for luci-app-splash - עִבְרִית (Hebrew)
+
+Package: luci-i18n-splash-hu
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 316
+Filename: luci-i18n-splash-hu_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1117
+SHA256sum: 59bd47c8a7579fb66d2b3cffdce2823a0ba995a4f4b6c24891236582c1716a23
+Description:  Translation for luci-app-splash - Magyar (Hungarian)
+
+Package: luci-i18n-splash-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 2710
+Filename: luci-i18n-splash-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3498
+SHA256sum: 6bce7e44dd8b538b27db79067a410447411df99c897d212f9d91d7071233849f
+Description:  Translation for luci-app-splash - Italiano (Italian)
+
+Package: luci-i18n-splash-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 331
+Filename: luci-i18n-splash-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1143
+SHA256sum: c43cdd305dffe3641586e845951288d9c0e84eb60254499ed5e23ad0100ef189
+Description:  Translation for luci-app-splash - 日本語 (Japanese)
+
+Package: luci-i18n-splash-ms
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 319
+Filename: luci-i18n-splash-ms_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1121
+SHA256sum: 482f12c78c0b4f44fc1f3fafac6d90be339fd31fa64f29e7c1bb32fa9c8434b7
+Description:  Translation for luci-app-splash - Bahasa Melayu (Malay)
+
+Package: luci-i18n-splash-no
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 314
+Filename: luci-i18n-splash-no_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1109
+SHA256sum: ee24cd7ad2b1b773428dbfd84a86189e5f7bb55e6adcb425c2e75c332ea1ea5b
+Description:  Translation for luci-app-splash - Norsk (Norwegian)
+
+Package: luci-i18n-splash-pl
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 3840
+Filename: luci-i18n-splash-pl_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4619
+SHA256sum: 91378c4d2b52a780eeed537f7255e68b0f2914aafe9823ef6510e63ccf2a56a1
+Description:  Translation for luci-app-splash - Polski (Polish)
+
+Package: luci-i18n-splash-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 3831
+Filename: luci-i18n-splash-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4629
+SHA256sum: b3793e969edc7ea314f4776105767fb8cf9b4981f3de5cc7419a21f2c6c9db33
+Description:  Translation for luci-app-splash - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-splash-pt
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 1117
+Filename: luci-i18n-splash-pt_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1928
+SHA256sum: 13edda39857a7e545bc8bae1ba0de6321f3422db25db276046a120e0b038fdb0
+Description:  Translation for luci-app-splash - Português (Portuguese)
+
+Package: luci-i18n-splash-ro
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 321
+Filename: luci-i18n-splash-ro_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1125
+SHA256sum: 9e6bd65646bf446feacc878ad6330a13be34827abc7d6512af001225ca6b0c6b
+Description:  Translation for luci-app-splash - Română (Romanian)
+
+Package: luci-i18n-splash-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 4509
+Filename: luci-i18n-splash-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5317
+SHA256sum: 0c02d5e2ff8d36ee08e4725f6481fa23db28333ee2e02d39a5deff6ca81b26aa
+Description:  Translation for luci-app-splash - Русский (Russian)
+
+Package: luci-i18n-splash-sk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 319
+Filename: luci-i18n-splash-sk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1121
+SHA256sum: bb9ec8c29b28339d4fd180a17bd5760aa3add56273ba760baada0fa5640b559c
+Description:  Translation for luci-app-splash - Slovenčina (Slovak)
+
+Package: luci-i18n-splash-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 2282
+Filename: luci-i18n-splash-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3099
+SHA256sum: a43745517303839098d416ebd9bd0aad609beb03fc2d53bb36c6a86ea15f3e4f
+Description:  Translation for luci-app-splash - Svenska (Swedish)
+
+Package: luci-i18n-splash-tr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-splash-tr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1119
+SHA256sum: 7246251b83daaa6cd4f7f6ce4f7bbb86b83e10ad0a3bb653a38e16b4d3f8436c
+Description:  Translation for luci-app-splash - Türkçe (Turkish)
+
+Package: luci-i18n-splash-uk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 344
+Filename: luci-i18n-splash-uk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1174
+SHA256sum: 786ded53ad7c768d88d323731e58d7d3cdd222f8d2fcff91ed8f3fa55844e0c1
+Description:  Translation for luci-app-splash - Українська (Ukrainian)
+
+Package: luci-i18n-splash-vi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 332
+Filename: luci-i18n-splash-vi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1146
+SHA256sum: 81c9c4858a65f3693f62278e0c57f09744dad5ef88b78f735eca772c79eddc0a
+Description:  Translation for luci-app-splash - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-splash-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 3613
+Filename: luci-i18n-splash-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4403
+SHA256sum: d1b15e79f64170804aeb60a33dfa197ac724c3ac8378e5381db3e5d383f7c07e
+Description:  Translation for luci-app-splash - 中文 (Chinese)
+
+Package: luci-i18n-splash-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-splash
+Section: luci
+Architecture: all
+Installed-Size: 3632
+Filename: luci-i18n-splash-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4431
+SHA256sum: 7293843b4cef76a5735e72bc864b87798bf523fa094ea03b63da2421bce119de
+Description:  Translation for luci-app-splash - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-squid-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-squid
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 525
+Filename: luci-i18n-squid-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1384
+SHA256sum: 98c11eca2991c014ab65356956e945fed07e06fcad3105cc4c1ba987700bb7e7
+Description:  Translation for luci-app-squid - Español (Spanish)
+
+Package: luci-i18n-statistics-ca
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 5002
+Filename: luci-i18n-statistics-ca_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5788
+SHA256sum: eaa7f543dbe8180f2ecae567a3e7fd0f648a546d46b8a1aaa5ed0c69c00576c1
+Description:  Translation for luci-app-statistics - Català (Catalan)
+
+Package: luci-i18n-statistics-cs
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 4918
+Filename: luci-i18n-statistics-cs_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5710
+SHA256sum: ae3fe14f9ed7439c5b56a396514bd1a68612065963f7b834374415b8653ebc78
+Description:  Translation for luci-app-statistics - Čeština (Czech)
+
+Package: luci-i18n-statistics-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 5519
+Filename: luci-i18n-statistics-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 6309
+SHA256sum: fc71693c42af2ce8c7d9ff1937c11fb664281fa9c3a7e4111648f1f41e61efc7
+Description:  Translation for luci-app-statistics - Deutsch (German)
+
+Package: luci-i18n-statistics-el
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 1501
+Filename: luci-i18n-statistics-el_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2332
+SHA256sum: 99003fa7dedf45f5ed5a02a19439939ff583feb31b3bd73f6cbfd14bd9fd0605
+Description:  Translation for luci-app-statistics - Ελληνικά (Greek)
+
+Package: luci-i18n-statistics-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 307
+Filename: luci-i18n-statistics-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1099
+SHA256sum: 02d0ad4c7697df29802097e09b2f80171041cb47e96e6287f1a588670a4be57a
+Description:  Translation for luci-app-statistics - English
+
+Package: luci-i18n-statistics-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 6967
+Filename: luci-i18n-statistics-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 7823
+SHA256sum: b840345373fcfe6c0617e77144cc5c1646c6decd26cd208fdcd4b84ce919d686
+Description:  Translation for luci-app-statistics - Español (Spanish)
+
+Package: luci-i18n-statistics-fr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 4527
+Filename: luci-i18n-statistics-fr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5314
+SHA256sum: 1f45989c43088961263dc44d7bb2594f0e24f97aa26d5c72d12c2221fe4df0ee
+Description:  Translation for luci-app-statistics - Français (French)
+
+Package: luci-i18n-statistics-he
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 425
+Filename: luci-i18n-statistics-he_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1248
+SHA256sum: 04888aeb3d2b8424c4435d088358b791b5fa8973875a0eb5d1df323d99330108
+Description:  Translation for luci-app-statistics - עִבְרִית (Hebrew)
+
+Package: luci-i18n-statistics-hu
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 4686
+Filename: luci-i18n-statistics-hu_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5466
+SHA256sum: 7b2a5e202045a7c35d5b8f863a19112d4217545fb7cbcc386cd769b011ea3319
+Description:  Translation for luci-app-statistics - Magyar (Hungarian)
+
+Package: luci-i18n-statistics-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 837
+Filename: luci-i18n-statistics-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1642
+SHA256sum: 072cd30f1ff4507924fb2c1979b9bd668109045b6c72a0ee4ea01f084b346514
+Description:  Translation for luci-app-statistics - Italiano (Italian)
+
+Package: luci-i18n-statistics-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 6311
+Filename: luci-i18n-statistics-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 7180
+SHA256sum: b87b069531c1875388350ce77dc875c7d30bd62650ddadc9eff6479c0eda1af7
+Description:  Translation for luci-app-statistics - 日本語 (Japanese)
+
+Package: luci-i18n-statistics-ms
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-statistics-ms_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1123
+SHA256sum: aba2fa0313a8eb6fcdf081093205472d8a96bc21222505b7bb233c197d5460a4
+Description:  Translation for luci-app-statistics - Bahasa Melayu (Malay)
+
+Package: luci-i18n-statistics-no
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 4443
+Filename: luci-i18n-statistics-no_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5233
+SHA256sum: 3b82489beb678546dbe46108a3c3e17b20742fa183ac346185d76f6e3b29ba8e
+Description:  Translation for luci-app-statistics - Norsk (Norwegian)
+
+Package: luci-i18n-statistics-pl
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 5489
+Filename: luci-i18n-statistics-pl_git-19.237.58470-6f114fb-1_all.ipk
+Size: 6292
+SHA256sum: dfb84a03ef7db1762929e99f052eb4ab42cd885be519a364f4e90954aec08ed9
+Description:  Translation for luci-app-statistics - Polski (Polish)
+
+Package: luci-i18n-statistics-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 6930
+Filename: luci-i18n-statistics-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 7798
+SHA256sum: 5df50029d47d074bf439e56a2706c4cb4b7899882acfcb12c063b7fb7310738d
+Description:  Translation for luci-app-statistics - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-statistics-pt
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 4702
+Filename: luci-i18n-statistics-pt_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5492
+SHA256sum: 324ebfca90abe5e02637caedf4c6010deba459f0ab7c8ca777b227fc10186390
+Description:  Translation for luci-app-statistics - Português (Portuguese)
+
+Package: luci-i18n-statistics-ro
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 1252
+Filename: luci-i18n-statistics-ro_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2074
+SHA256sum: 842ef3d81c635043b7938810b5106a4b9d964cb49f3b3bb31bb01a693eb18993
+Description:  Translation for luci-app-statistics - Română (Romanian)
+
+Package: luci-i18n-statistics-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 7874
+Filename: luci-i18n-statistics-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 8724
+SHA256sum: 8799647f9ec2af861919d2323ec16ec9ec369e10cdd995b68de5d7c2aa4dddbc
+Description:  Translation for luci-app-statistics - Русский (Russian)
+
+Package: luci-i18n-statistics-sk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 323
+Filename: luci-i18n-statistics-sk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1133
+SHA256sum: 3e12645ab43cda8d0d4fc240e4300ac55be7708d57b68171b53ba54794803ab0
+Description:  Translation for luci-app-statistics - Slovenčina (Slovak)
+
+Package: luci-i18n-statistics-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 3327
+Filename: luci-i18n-statistics-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4114
+SHA256sum: 53aade3f9af6679ac6eeae95f9e66220c93e24b2778eca4097ff082e62562e89
+Description:  Translation for luci-app-statistics - Svenska (Swedish)
+
+Package: luci-i18n-statistics-tr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 323
+Filename: luci-i18n-statistics-tr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1135
+SHA256sum: b56c4d5d03a44186c48c91f49c886f9248722adc93921cf0dc4483befd9d2722
+Description:  Translation for luci-app-statistics - Türkçe (Turkish)
+
+Package: luci-i18n-statistics-uk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 521
+Filename: luci-i18n-statistics-uk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1354
+SHA256sum: 926c527e5aca2d276c7ac27e7cc5531e1d0b72cfdba00229fbdaee2b2a700e2a
+Description:  Translation for luci-app-statistics - Українська (Ukrainian)
+
+Package: luci-i18n-statistics-vi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 4035
+Filename: luci-i18n-statistics-vi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4841
+SHA256sum: df8bff2bb33b0dbba3fd8d0a59c480d3d6c43b6e27e02dc28231264aa317dc33
+Description:  Translation for luci-app-statistics - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-statistics-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 6547
+Filename: luci-i18n-statistics-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 7392
+SHA256sum: a939c8730dc18b22410ba330307b3462e67573fe508eade6f65a6a1966833529
+Description:  Translation for luci-app-statistics - 中文 (Chinese)
+
+Package: luci-i18n-statistics-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-statistics
+Section: luci
+Architecture: all
+Installed-Size: 6604
+Filename: luci-i18n-statistics-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 7465
+SHA256sum: 92cb27bf709b1c0dd47f3a0ef7dc3cb034e5aa108335c25ddb97e227aee2cc6c
+Description:  Translation for luci-app-statistics - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-tinyproxy-ca
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 1463
+Filename: luci-i18n-tinyproxy-ca_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2285
+SHA256sum: d9c54c1ce31e35db6c122caab4b50af4e0e2ae28f83e92bf5977b6330891cfd0
+Description:  Translation for luci-app-tinyproxy - Català (Catalan)
+
+Package: luci-i18n-tinyproxy-cs
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 1017
+Filename: luci-i18n-tinyproxy-cs_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1834
+SHA256sum: 3fe6bd2f91904c86880988840781468ccbe7b88452aa40bfff8ab96aa64edd91
+Description:  Translation for luci-app-tinyproxy - Čeština (Czech)
+
+Package: luci-i18n-tinyproxy-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2990
+Filename: luci-i18n-tinyproxy-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3766
+SHA256sum: e3098f5d39bbe9eb60605edfee9ce1f84fda9ae14cd7c956a4e046aa7815e638
+Description:  Translation for luci-app-tinyproxy - Deutsch (German)
+
+Package: luci-i18n-tinyproxy-el
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 1762
+Filename: luci-i18n-tinyproxy-el_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2602
+SHA256sum: cad79610836a33da6b002b8c884c5a1bca9406184fdd4d65186ea2fc33825bc2
+Description:  Translation for luci-app-tinyproxy - Ελληνικά (Greek)
+
+Package: luci-i18n-tinyproxy-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 309
+Filename: luci-i18n-tinyproxy-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1101
+SHA256sum: 445086a634fd9908829cf28fd927c14651510a65cf746848916edd25b4211886
+Description:  Translation for luci-app-tinyproxy - English
+
+Package: luci-i18n-tinyproxy-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2799
+Filename: luci-i18n-tinyproxy-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3590
+SHA256sum: 057cd66d858ad86e869b524e7e00bf7145062cffa391609efa4efe2e50fda9cf
+Description:  Translation for luci-app-tinyproxy - Español (Spanish)
+
+Package: luci-i18n-tinyproxy-fr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2947
+Filename: luci-i18n-tinyproxy-fr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3735
+SHA256sum: 251196fa7ad5c7a0983873ea449c92797c45e52826e9d2e6b9acfc9125ec8298
+Description:  Translation for luci-app-tinyproxy - Français (French)
+
+Package: luci-i18n-tinyproxy-he
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 339
+Filename: luci-i18n-tinyproxy-he_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1164
+SHA256sum: 3077e4673dc0476f583b36c886d4e0b4df1655a2c9969657733ff23fe1da8fb9
+Description:  Translation for luci-app-tinyproxy - עִבְרִית (Hebrew)
+
+Package: luci-i18n-tinyproxy-hu
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-tinyproxy-hu_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1118
+SHA256sum: e5d24fcb65290c8c6d1bfa987dd9b8bdb552b928f545f0b6a77b4dffee7442bc
+Description:  Translation for luci-app-tinyproxy - Magyar (Hungarian)
+
+Package: luci-i18n-tinyproxy-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 820
+Filename: luci-i18n-tinyproxy-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1619
+SHA256sum: 298494de41ddbd3e3a2e271663eae6d1a97697c2b09246fe6c45438848cfaec6
+Description:  Translation for luci-app-tinyproxy - Italiano (Italian)
+
+Package: luci-i18n-tinyproxy-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2421
+Filename: luci-i18n-tinyproxy-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3222
+SHA256sum: 2cf79cc0f192db5a111362e669522f7dc367b4f3802067f9212afef7ae123f42
+Description:  Translation for luci-app-tinyproxy - 日本語 (Japanese)
+
+Package: luci-i18n-tinyproxy-ms
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-tinyproxy-ms_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1126
+SHA256sum: bb45010e1175e85b671bac76aa3dcbbe60fe4963a01cf5f15c5e47f9c2d1f380
+Description:  Translation for luci-app-tinyproxy - Bahasa Melayu (Malay)
+
+Package: luci-i18n-tinyproxy-no
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 318
+Filename: luci-i18n-tinyproxy-no_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1117
+SHA256sum: 4de8af20147c4090c227e382b06b33c225460363d3800bfc1aaaa180a1f5da1e
+Description:  Translation for luci-app-tinyproxy - Norsk (Norwegian)
+
+Package: luci-i18n-tinyproxy-pl
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 3080
+Filename: luci-i18n-tinyproxy-pl_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3864
+SHA256sum: b8e5d748b8f759ba0ab0c2fac6a57f3b64fa9282df26fa52ca133d7660048a48
+Description:  Translation for luci-app-tinyproxy - Polski (Polish)
+
+Package: luci-i18n-tinyproxy-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2971
+Filename: luci-i18n-tinyproxy-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3777
+SHA256sum: e320ba3c75e9c15acc54ac48d2595f15a7dc0a17f003df99f32e3d5c8336f04a
+Description:  Translation for luci-app-tinyproxy - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-tinyproxy-pt
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 1158
+Filename: luci-i18n-tinyproxy-pt_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1975
+SHA256sum: 63d3a550691857510630784c65eaf366fc23c8e294127123ca2101a97fc46771
+Description:  Translation for luci-app-tinyproxy - Português (Portuguese)
+
+Package: luci-i18n-tinyproxy-ro
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 326
+Filename: luci-i18n-tinyproxy-ro_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1134
+SHA256sum: 0dbb306ffc721a0c318e444fe40c1d69ff40a67b966799642fb732824400062a
+Description:  Translation for luci-app-tinyproxy - Română (Romanian)
+
+Package: luci-i18n-tinyproxy-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 3482
+Filename: luci-i18n-tinyproxy-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4295
+SHA256sum: 0d8757ad5e49f86a282203178e10bfbb5023f1467073b6fdbbf6d7c401d9d3e0
+Description:  Translation for luci-app-tinyproxy - Русский (Russian)
+
+Package: luci-i18n-tinyproxy-sk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-tinyproxy-sk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1129
+SHA256sum: bafaf54a916024118dbcc0917fde10435eece255591728aefff9cfa698dc7844
+Description:  Translation for luci-app-tinyproxy - Slovenčina (Slovak)
+
+Package: luci-i18n-tinyproxy-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2207
+Filename: luci-i18n-tinyproxy-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3021
+SHA256sum: 1c3c99c3d241a88c7f9ee90d113976646d117bbc692bb709a8b3e4a03f36f5cd
+Description:  Translation for luci-app-tinyproxy - Svenska (Swedish)
+
+Package: luci-i18n-tinyproxy-tr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 326
+Filename: luci-i18n-tinyproxy-tr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1129
+SHA256sum: c00e449b6e8e5020599a5e74fca90524b1bdf997d3e05fbc2f724bdd9e76f7c1
+Description:  Translation for luci-app-tinyproxy - Türkçe (Turkish)
+
+Package: luci-i18n-tinyproxy-uk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 347
+Filename: luci-i18n-tinyproxy-uk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1185
+SHA256sum: 27df8ef5e003ee3f9628d5e9d3ade3964ef45c51decad0f2e9c41605f6e5470b
+Description:  Translation for luci-app-tinyproxy - Українська (Ukrainian)
+
+Package: luci-i18n-tinyproxy-vi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 574
+Filename: luci-i18n-tinyproxy-vi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1401
+SHA256sum: 7aa992d9ffdbfd271c9003266e394457936bdaab1fd654c415a1f184dcb7b889
+Description:  Translation for luci-app-tinyproxy - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-tinyproxy-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 2760
+Filename: luci-i18n-tinyproxy-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3555
+SHA256sum: 8b2a27dfd42dbc356e75d26f06ca8233e89fdce53cee002ff3c2c655e943ceb4
+Description:  Translation for luci-app-tinyproxy - 中文 (Chinese)
+
+Package: luci-i18n-tinyproxy-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-tinyproxy
+Section: luci
+Architecture: all
+Installed-Size: 347
+Filename: luci-i18n-tinyproxy-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1176
+SHA256sum: 0df9c640397ccd85b8e320a31aff9239920414562231e535e249be9860a8bb77
+Description:  Translation for luci-app-tinyproxy - 臺灣華語 (Taiwanese)
+
 Package: luci-i18n-transmission-ca
 Version: git-19.237.58470-6f114fb-1
 Depends: libc, luci-app-transmission
@@ -7026,6 +8228,201 @@ Filename: luci-i18n-transmission-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
 Size: 3458
 SHA256sum: f08dc8dd7cabab29170b631418e5c9341cba5d90d77bd7ad3965420a5c7ee15b
 Description:  Translation for luci-app-transmission - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-travelmate-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-travelmate
+Section: luci
+Architecture: all
+Installed-Size: 3807
+Filename: luci-i18n-travelmate-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4599
+SHA256sum: 3c4428b5d5cc039fa2a02c8f85f63af0ff8521eb3f805b5cbb8a55f91a019957
+Description:  Translation for luci-app-travelmate - Español (Spanish)
+
+Package: luci-i18n-travelmate-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-travelmate
+Section: luci
+Architecture: all
+Installed-Size: 3990
+Filename: luci-i18n-travelmate-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4787
+SHA256sum: b850de1ed8f7ca581ccce24493b9c4e71e2459a6a2d4964a7687d777a8d34e1e
+Description:  Translation for luci-app-travelmate - 日本語 (Japanese)
+
+Package: luci-i18n-travelmate-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-travelmate
+Section: luci
+Architecture: all
+Installed-Size: 3261
+Filename: luci-i18n-travelmate-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4057
+SHA256sum: 795a76a44215a08b6386567ce59700bef69a55aa14402899fd20cdcc2d8b59b1
+Description:  Translation for luci-app-travelmate - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-travelmate-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-travelmate
+Section: luci
+Architecture: all
+Installed-Size: 2973
+Filename: luci-i18n-travelmate-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3768
+SHA256sum: 1935ebf42d1c05970e499f47b67be2caaa7ef9b23cc231efc6c514e19ebf0322
+Description:  Translation for luci-app-travelmate - Русский (Russian)
+
+Package: luci-i18n-travelmate-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-travelmate
+Section: luci
+Architecture: all
+Installed-Size: 3438
+Filename: luci-i18n-travelmate-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4233
+SHA256sum: 9466e134d811eac6d6d0d3464a13b42c6ce5c952cccf691611d2d601df48242c
+Description:  Translation for luci-app-travelmate - 中文 (Chinese)
+
+Package: luci-i18n-travelmate-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-travelmate
+Section: luci
+Architecture: all
+Installed-Size: 3435
+Filename: luci-i18n-travelmate-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4238
+SHA256sum: 16cd3988cb13ad3a2082ba585030b2f69121062c055b61ffa02f0f39904d0916
+Description:  Translation for luci-app-travelmate - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-uhttpd-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2166
+Filename: luci-i18n-uhttpd-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3040
+SHA256sum: 4bdfc2541f5596b8706fd5a9af23e769014a41c798a8812b5a0af6622254699c
+Description:  Translation for luci-app-uhttpd - Deutsch (German)
+
+Package: luci-i18n-uhttpd-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-uhttpd-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1158
+SHA256sum: 4470bbfaf4649179ccc50912e67f54aaecbd648d807787e3fc8035209de88089
+Description:  Translation for luci-app-uhttpd - English
+
+Package: luci-i18n-uhttpd-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2551
+Filename: luci-i18n-uhttpd-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3392
+SHA256sum: 8129b732a527481be1900fa1a1c73318651e6569a099b18e692989626d8c2832
+Description:  Translation for luci-app-uhttpd - Español (Spanish)
+
+Package: luci-i18n-uhttpd-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2556
+Filename: luci-i18n-uhttpd-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3405
+SHA256sum: a386293e3155db62c32aa64b355493cceef80ccc292e7d36941d3fce1aaf3782
+Description:  Translation for luci-app-uhttpd - 日本語 (Japanese)
+
+Package: luci-i18n-uhttpd-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2572
+Filename: luci-i18n-uhttpd-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3424
+SHA256sum: d5c098c32f67703eca5b7ed10414affcd9b9248b8c1ed75b301d95bc2dff3582
+Description:  Translation for luci-app-uhttpd - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-uhttpd-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2953
+Filename: luci-i18n-uhttpd-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3813
+SHA256sum: 3ce758f994de45a11c760aa7b6d8a95c676ee0ff969723087761688361a2eb4a
+Description:  Translation for luci-app-uhttpd - Русский (Russian)
+
+Package: luci-i18n-uhttpd-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2354
+Filename: luci-i18n-uhttpd-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3245
+SHA256sum: 3b44a04c7a795480ef8fc3cfc4e33236328c191b2367e6aa85599247bff29533
+Description:  Translation for luci-app-uhttpd - 中文 (Chinese)
+
+Package: luci-i18n-uhttpd-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2356
+Filename: luci-i18n-uhttpd-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 3251
+SHA256sum: 0c5159f530cb2e5638117b256c6e529991b5a3efd0917164d1cd4b043937f4e9
+Description:  Translation for luci-app-uhttpd - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-unbound-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-unbound
+Section: luci
+Architecture: all
+Installed-Size: 5234
+Filename: luci-i18n-unbound-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 6016
+SHA256sum: 9a6a71e116c3a5597ee4ec0bc9e2d93b318d77451fd659d53dbdbd9b2d51b4eb
+Description:  Translation for luci-app-unbound - Español (Spanish)
+
+Package: luci-i18n-unbound-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-unbound
+Section: luci
+Architecture: all
+Installed-Size: 4902
+Filename: luci-i18n-unbound-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5704
+SHA256sum: b351d2c5b910b51fc9f52572e2890662a3b8a77ca42896d10928b0de1740b829
+Description:  Translation for luci-app-unbound - 中文 (Chinese)
+
+Package: luci-i18n-unbound-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-unbound
+Section: luci
+Architecture: all
+Installed-Size: 4932
+Filename: luci-i18n-unbound-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5737
+SHA256sum: ddfc3652c27e083147c029578ca6f33bf6efc5d54ab3cc74daa52fe683cd6964
+Description:  Translation for luci-app-unbound - 臺灣華語 (Taiwanese)
 
 Package: luci-i18n-upnp-ca
 Version: git-19.237.58470-6f114fb-1
@@ -7302,6 +8699,1101 @@ Size: 2441
 SHA256sum: 8f57c29839efab27840f2536d2794534a0d0f8a3080feb687609f7462910311e
 Description:  Translation for luci-app-upnp - 臺灣華語 (Taiwanese)
 
+Package: luci-i18n-vnstat-ca
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 850
+Filename: luci-i18n-vnstat-ca_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1654
+SHA256sum: 6087ef28f89bd3abe6454fa2aca51a72066ad3b8ff7cd42bd25c6cde628a4301
+Description:  Translation for luci-app-vnstat - Català (Catalan)
+
+Package: luci-i18n-vnstat-cs
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 877
+Filename: luci-i18n-vnstat-cs_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1706
+SHA256sum: f6d31397ca6f005f756dcf4325e9bedd1515058fa1fcf391501a498425ee316d
+Description:  Translation for luci-app-vnstat - Čeština (Czech)
+
+Package: luci-i18n-vnstat-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 879
+Filename: luci-i18n-vnstat-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1691
+SHA256sum: 3eecf956a25bdc1e989109c0952ec2abd62a87a9c1748c5f1471a70d72feaf08
+Description:  Translation for luci-app-vnstat - Deutsch (German)
+
+Package: luci-i18n-vnstat-el
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 331
+Filename: luci-i18n-vnstat-el_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1151
+SHA256sum: a4963ce4d73367e377d0ccbc36e19932c132208430f0dd56c92a6a5d6ed26e6f
+Description:  Translation for luci-app-vnstat - Ελληνικά (Greek)
+
+Package: luci-i18n-vnstat-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-vnstat-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1091
+SHA256sum: a4b972d9c4baadda9f7b3d7b8cdbf8148ab22c11ed99b72968fe0c1baab7362c
+Description:  Translation for luci-app-vnstat - English
+
+Package: luci-i18n-vnstat-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 862
+Filename: luci-i18n-vnstat-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1666
+SHA256sum: 4bee1ee85699dfeb02a9f36510f1b448fca1a4f4a84c5934e9c4a4a94f52a7ab
+Description:  Translation for luci-app-vnstat - Español (Spanish)
+
+Package: luci-i18n-vnstat-fr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 854
+Filename: luci-i18n-vnstat-fr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1666
+SHA256sum: 4d7daf83a447024d66c5e19af16586dc8982e9b641270a7d087f9c57b5805ffc
+Description:  Translation for luci-app-vnstat - Français (French)
+
+Package: luci-i18n-vnstat-he
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 336
+Filename: luci-i18n-vnstat-he_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1156
+SHA256sum: ee6443921ff87be70f06c59e912cf538e2f64b5b4d2a887f68d72605de303da6
+Description:  Translation for luci-app-vnstat - עִבְרִית (Hebrew)
+
+Package: luci-i18n-vnstat-hu
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 870
+Filename: luci-i18n-vnstat-hu_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1683
+SHA256sum: 0f9c8dce780e1a02896ea0dc24ff09b87143504db13f5136a917748e035a9816
+Description:  Translation for luci-app-vnstat - Magyar (Hungarian)
+
+Package: luci-i18n-vnstat-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 787
+Filename: luci-i18n-vnstat-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1591
+SHA256sum: 24cabe1f9245220feca9fc36be5b08c8dc69b0ff333ed6bd44752cd3154a8c9a
+Description:  Translation for luci-app-vnstat - Italiano (Italian)
+
+Package: luci-i18n-vnstat-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 913
+Filename: luci-i18n-vnstat-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1739
+SHA256sum: 47d4a9afd2726cd9061cf64cba6b7f04e56e17cbacdda73f4ac33303fcb3c19e
+Description:  Translation for luci-app-vnstat - 日本語 (Japanese)
+
+Package: luci-i18n-vnstat-ms
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 318
+Filename: luci-i18n-vnstat-ms_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1117
+SHA256sum: 8b09fbecbaf342e33e6d600e852af4ec5c6574e09e0ce7ebe14a5f0096790759
+Description:  Translation for luci-app-vnstat - Bahasa Melayu (Malay)
+
+Package: luci-i18n-vnstat-no
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 830
+Filename: luci-i18n-vnstat-no_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1634
+SHA256sum: 61423f04e32761792e0a1874db8a2dad6ce6ea508f2ece5ae3dd15e28b4646ed
+Description:  Translation for luci-app-vnstat - Norsk (Norwegian)
+
+Package: luci-i18n-vnstat-pl
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 863
+Filename: luci-i18n-vnstat-pl_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1667
+SHA256sum: f57aa4f9afd2876c086d3e5354469cdd2806280234b55ccc90d4831490283f18
+Description:  Translation for luci-app-vnstat - Polski (Polish)
+
+Package: luci-i18n-vnstat-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 869
+Filename: luci-i18n-vnstat-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1700
+SHA256sum: 3fd7ec08ae0a1b478fdc2bb02d16e5330de7af813a80d951a6adffd1e6c656f9
+Description:  Translation for luci-app-vnstat - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-vnstat-pt
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 847
+Filename: luci-i18n-vnstat-pt_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1660
+SHA256sum: 31a969f9c3a9966a22607b6f68b3a5ed1f8ddc98f46012eea47788ce433737d2
+Description:  Translation for luci-app-vnstat - Português (Portuguese)
+
+Package: luci-i18n-vnstat-ro
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 825
+Filename: luci-i18n-vnstat-ro_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1636
+SHA256sum: fd312cd182c5dbd568d89440a7680756118e0c9b0444fde16feb01c6d2e137b6
+Description:  Translation for luci-app-vnstat - Română (Romanian)
+
+Package: luci-i18n-vnstat-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 927
+Filename: luci-i18n-vnstat-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1753
+SHA256sum: 69ac7a1e7544955176b8a40c6f39676b48ea86b5ec69dbd018f43c34d0c3cd21
+Description:  Translation for luci-app-vnstat - Русский (Russian)
+
+Package: luci-i18n-vnstat-sk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 321
+Filename: luci-i18n-vnstat-sk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1124
+SHA256sum: 362071406d9db400eefc2e1f6527040c56fbc9cb87ef6a034cf8cccea8a94227
+Description:  Translation for luci-app-vnstat - Slovenčina (Slovak)
+
+Package: luci-i18n-vnstat-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 735
+Filename: luci-i18n-vnstat-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1538
+SHA256sum: 305386a18f3f1b38d1b7debe99da8b2bf3e68cb825e446ffe990c7d7e1a3f0ea
+Description:  Translation for luci-app-vnstat - Svenska (Swedish)
+
+Package: luci-i18n-vnstat-tr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-vnstat-tr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1128
+SHA256sum: d96139d06b57c7bb568e0a380ae7c624ba4f3e0e742eaddc6ad9ff194aa9abb2
+Description:  Translation for luci-app-vnstat - Türkçe (Turkish)
+
+Package: luci-i18n-vnstat-uk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 967
+Filename: luci-i18n-vnstat-uk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1803
+SHA256sum: 5af3aad201ce9ced1b9295861ef10334472f2947f7c9aa618c1b7807f6bae283
+Description:  Translation for luci-app-vnstat - Українська (Ukrainian)
+
+Package: luci-i18n-vnstat-vi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 333
+Filename: luci-i18n-vnstat-vi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1146
+SHA256sum: c0413426b8ccdcf6d0d24262302182fa0428e5946872ccf39fb4231a24185826
+Description:  Translation for luci-app-vnstat - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-vnstat-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 851
+Filename: luci-i18n-vnstat-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1667
+SHA256sum: 0ed021a977074f409d5bca70d24e9f170533d910a32c88e266eabd815c527860
+Description:  Translation for luci-app-vnstat - 中文 (Chinese)
+
+Package: luci-i18n-vnstat-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-vnstat
+Section: luci
+Architecture: all
+Installed-Size: 863
+Filename: luci-i18n-vnstat-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1701
+SHA256sum: 5be822fe537ea9793b6678673d2130e51e7659dcbfd242d5b09cded2be6a197e
+Description:  Translation for luci-app-vnstat - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-vpnbypass-de
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci-app-vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 799
+Filename: luci-i18n-vpnbypass-de_git-19.237.58470-6f114fb-4_all.ipk
+Size: 1663
+SHA256sum: eed74bb3591f38b9b9b29b08d5a3dc0fefd730071da087cf9d4221fcf94591ec
+Description:  Translation for luci-app-vpnbypass - Deutsch (German)
+
+Package: luci-i18n-vpnbypass-es
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci-app-vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 828
+Filename: luci-i18n-vpnbypass-es_git-19.237.58470-6f114fb-4_all.ipk
+Size: 1694
+SHA256sum: b456f41c153c868e71f44f152ab448a9b28a5ee875e3ea893cbe9615f26d87c5
+Description:  Translation for luci-app-vpnbypass - Español (Spanish)
+
+Package: luci-i18n-vpnbypass-pt-br
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci-app-vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 837
+Filename: luci-i18n-vpnbypass-pt-br_git-19.237.58470-6f114fb-4_all.ipk
+Size: 1723
+SHA256sum: 8155b0f9f72f7464dd0dad4cc1da7f8e5b6f2ca3046df9dc40374cc90a31d4c4
+Description:  Translation for luci-app-vpnbypass - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-vpnbypass-ru
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci-app-vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 916
+Filename: luci-i18n-vpnbypass-ru_git-19.237.58470-6f114fb-4_all.ipk
+Size: 1791
+SHA256sum: 0119444ed28cc9e549b41d8ca07d7c2817759e6234e7af002467297d9aa8a3c7
+Description:  Translation for luci-app-vpnbypass - Русский (Russian)
+
+Package: luci-i18n-vpnbypass-zh-cn
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci-app-vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 789
+Filename: luci-i18n-vpnbypass-zh-cn_git-19.237.58470-6f114fb-4_all.ipk
+Size: 1658
+SHA256sum: 910acb5ab14cf05b9486ffffeccc315bb2f6adec42b193eb3e8b738b0d1bd25a
+Description:  Translation for luci-app-vpnbypass - 中文 (Chinese)
+
+Package: luci-i18n-vpnbypass-zh-tw
+Version: git-19.237.58470-6f114fb-4
+Depends: libc, luci-app-vpnbypass
+License: GPL-3.0+
+Section: luci
+Architecture: all
+Installed-Size: 761
+Filename: luci-i18n-vpnbypass-zh-tw_git-19.237.58470-6f114fb-4_all.ipk
+Size: 1639
+SHA256sum: b4f50ce5d9058ae1c2038a700053c6427edeb33693b4f0fef08e9bdb289c2af9
+Description:  Translation for luci-app-vpnbypass - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-watchcat-ca
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 957
+Filename: luci-i18n-watchcat-ca_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1765
+SHA256sum: 89a5cd5d7e9c6e84200919f0216d127b5cf9cae60d02f919c5bcc29ad836c8b1
+Description:  Translation for luci-app-watchcat - Català (Catalan)
+
+Package: luci-i18n-watchcat-cs
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1146
+Filename: luci-i18n-watchcat-cs_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1975
+SHA256sum: 24c12ee699a87783fa25a3dc8c59155d2268b84df4f76a9b146e32c8169dd7a8
+Description:  Translation for luci-app-watchcat - Čeština (Czech)
+
+Package: luci-i18n-watchcat-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1069
+Filename: luci-i18n-watchcat-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1876
+SHA256sum: 33e70a264239392e2ed40df89591b65d28049b329a1a4876a54d3a1fe87a3194
+Description:  Translation for luci-app-watchcat - Deutsch (German)
+
+Package: luci-i18n-watchcat-el
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 333
+Filename: luci-i18n-watchcat-el_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1155
+SHA256sum: c59b48fbd5ab80af8c42750ab6fdd11e4ebea2de02a1a9b976d695e9b74ee270
+Description:  Translation for luci-app-watchcat - Ελληνικά (Greek)
+
+Package: luci-i18n-watchcat-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 581
+Filename: luci-i18n-watchcat-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1379
+SHA256sum: a10c7f47cb4cc5e1defa5ff94ee2ba91030b57f1e33ffa8f4277ecf228c201e9
+Description:  Translation for luci-app-watchcat - English
+
+Package: luci-i18n-watchcat-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1016
+Filename: luci-i18n-watchcat-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1829
+SHA256sum: 7337455f99c8b87aca6d1ba36cdeeb93f7d876d7955f241db3ad8ca048918c32
+Description:  Translation for luci-app-watchcat - Español (Spanish)
+
+Package: luci-i18n-watchcat-fr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 321
+Filename: luci-i18n-watchcat-fr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1122
+SHA256sum: 1c9742bb45cb393bca5863545259debd5341acf6cc860952c319b5a489e5a9d0
+Description:  Translation for luci-app-watchcat - Français (French)
+
+Package: luci-i18n-watchcat-he
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 335
+Filename: luci-i18n-watchcat-he_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1155
+SHA256sum: a21d90ef74fbb0d15d311430fadc4523a68ef37abd743bfba802bb29b35e5877
+Description:  Translation for luci-app-watchcat - עִבְרִית (Hebrew)
+
+Package: luci-i18n-watchcat-hu
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 790
+Filename: luci-i18n-watchcat-hu_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1600
+SHA256sum: 32f9c5eecc652739d5185f453f4f0259faf64929b9aa5a18ac75cef2a8e4e07e
+Description:  Translation for luci-app-watchcat - Magyar (Hungarian)
+
+Package: luci-i18n-watchcat-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 966
+Filename: luci-i18n-watchcat-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1773
+SHA256sum: a76e6bf47f333219c9095382ae3ad463f2f9e367e633272e835a6b0aa60da7a5
+Description:  Translation for luci-app-watchcat - Italiano (Italian)
+
+Package: luci-i18n-watchcat-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1059
+Filename: luci-i18n-watchcat-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1883
+SHA256sum: 9d70fe5a6ed831b6fb1bd8f6e2d5cffb4c58db60064005e2d35c8613aad865a5
+Description:  Translation for luci-app-watchcat - 日本語 (Japanese)
+
+Package: luci-i18n-watchcat-ms
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-watchcat-ms_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1119
+SHA256sum: 5c9a3f96f06a32d45a9ecf8c7a62402df661402cdd124e07acad70a24f3a641f
+Description:  Translation for luci-app-watchcat - Bahasa Melayu (Malay)
+
+Package: luci-i18n-watchcat-no
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 315
+Filename: luci-i18n-watchcat-no_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1113
+SHA256sum: f3d7e5e9f4d61b2f8d875bed8775b7e7e9fd3ed34fc3bd2d5c72271d0df7e683
+Description:  Translation for luci-app-watchcat - Norsk (Norwegian)
+
+Package: luci-i18n-watchcat-pl
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1003
+Filename: luci-i18n-watchcat-pl_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1812
+SHA256sum: 628f3cec70989e0c9ddeba761b36392542c68df7dcda966d7193049ae195b111
+Description:  Translation for luci-app-watchcat - Polski (Polish)
+
+Package: luci-i18n-watchcat-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1034
+Filename: luci-i18n-watchcat-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1862
+SHA256sum: ba81ed6dd1e270df6fa50c67e2a86f459217930b17878fc63574b2c19873b5fb
+Description:  Translation for luci-app-watchcat - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-watchcat-pt
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 471
+Filename: luci-i18n-watchcat-pt_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1278
+SHA256sum: 3450bc67bf621561a4e04299a2ea7a980a4128dab59e1de8bafa4bcffd10b4c0
+Description:  Translation for luci-app-watchcat - Português (Portuguese)
+
+Package: luci-i18n-watchcat-ro
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 387
+Filename: luci-i18n-watchcat-ro_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1196
+SHA256sum: 5cecd213a9f8f8ac097a295effd1c9b5507ddb527b2ebd80293092f99c743fe1
+Description:  Translation for luci-app-watchcat - Română (Romanian)
+
+Package: luci-i18n-watchcat-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 1197
+Filename: luci-i18n-watchcat-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2030
+SHA256sum: 75da4de0c428055a1090ebc46df762beafec203f37c7d992cfe752088795f05e
+Description:  Translation for luci-app-watchcat - Русский (Russian)
+
+Package: luci-i18n-watchcat-sk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-watchcat-sk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1128
+SHA256sum: 4bff3078edb6d214744f6d4c5c97612bcf70b3383d4a9c5439f27c608a12dfde
+Description:  Translation for luci-app-watchcat - Slovenčina (Slovak)
+
+Package: luci-i18n-watchcat-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 644
+Filename: luci-i18n-watchcat-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1447
+SHA256sum: 75b92804f12ef776cfa2f0f70116a22ab3bf4ad3bf8234ab87350d4fe927bdf6
+Description:  Translation for luci-app-watchcat - Svenska (Swedish)
+
+Package: luci-i18n-watchcat-tr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-watchcat-tr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1130
+SHA256sum: 59128ec1b22927ab9dd421550b715df3e5c41a7864a24b8f821e42e620d05dfd
+Description:  Translation for luci-app-watchcat - Türkçe (Turkish)
+
+Package: luci-i18n-watchcat-uk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 762
+Filename: luci-i18n-watchcat-uk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1597
+SHA256sum: 0c4d2014f83bec58f6d6b517ffbfe4df9899aed95730207f32e21579a03435f8
+Description:  Translation for luci-app-watchcat - Українська (Ukrainian)
+
+Package: luci-i18n-watchcat-vi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 335
+Filename: luci-i18n-watchcat-vi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1151
+SHA256sum: 044360b0483426e20916e9395536e419f586340eb9f7d98b8cade9f4f6e6a787
+Description:  Translation for luci-app-watchcat - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-watchcat-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 992
+Filename: luci-i18n-watchcat-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1817
+SHA256sum: a6ec482aefc1bce5994dbcdcc6001844a69c616ca6dbdcdfcce31bc8d76c5979
+Description:  Translation for luci-app-watchcat - 中文 (Chinese)
+
+Package: luci-i18n-watchcat-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-watchcat
+Section: luci
+Architecture: all
+Installed-Size: 998
+Filename: luci-i18n-watchcat-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1831
+SHA256sum: b635d4a522d986d91a8c528dcc3adc156dd812c0925def6d3caf4a13c2c82b26
+Description:  Translation for luci-app-watchcat - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-wifischedule-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1224
+Filename: luci-i18n-wifischedule-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2046
+SHA256sum: 85d02cb329e1772dd1e64bab6277fd178f4a63855634997e5d11440370ea6816
+Description:  Translation for luci-app-wifischedule - Deutsch (German)
+
+Package: luci-i18n-wifischedule-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1277
+Filename: luci-i18n-wifischedule-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2100
+SHA256sum: 5f6338eb435bfd9aa9e5450d50365811b071cbb7ba15b90742d067a9331ea2fb
+Description:  Translation for luci-app-wifischedule - Español (Spanish)
+
+Package: luci-i18n-wifischedule-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1205
+Filename: luci-i18n-wifischedule-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2017
+SHA256sum: e001b010fdce49b34d47b5c4718595a599d3a07577de94bb5324880e2f910c93
+Description:  Translation for luci-app-wifischedule - Italiano (Italian)
+
+Package: luci-i18n-wifischedule-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1345
+Filename: luci-i18n-wifischedule-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2179
+SHA256sum: 166411db8ce3cc2c10e035929e0b8bc907ecc501cfd90b27f518803047de4bfc
+Description:  Translation for luci-app-wifischedule - 日本語 (Japanese)
+
+Package: luci-i18n-wifischedule-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1370
+Filename: luci-i18n-wifischedule-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2208
+SHA256sum: ae47f72e7fb246dd77bfc44607a0adb8d50be5f9d76902d74f726764f25f16fc
+Description:  Translation for luci-app-wifischedule - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-wifischedule-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1485
+Filename: luci-i18n-wifischedule-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2325
+SHA256sum: 6deaf4984dccda10b5d923aa38eed569cbdb44f05d9098d00186cdc723e0a24f
+Description:  Translation for luci-app-wifischedule - Русский (Russian)
+
+Package: luci-i18n-wifischedule-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1125
+Filename: luci-i18n-wifischedule-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1935
+SHA256sum: caa701569aa0bce376f081ac857b24ee1c28608e1b86cdab320225a54f9c635a
+Description:  Translation for luci-app-wifischedule - Svenska (Swedish)
+
+Package: luci-i18n-wifischedule-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1229
+Filename: luci-i18n-wifischedule-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2049
+SHA256sum: 47282c028505ef99d1a1bcfb70da8e51da41fc4e51b19d60985cbef662c886f5
+Description:  Translation for luci-app-wifischedule - 中文 (Chinese)
+
+Package: luci-i18n-wifischedule-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1247
+Filename: luci-i18n-wifischedule-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2081
+SHA256sum: c3fc9121c342ecc8819a4bbd9cbaeec23d6235ae1e26753e523780f6ca9bb8ea
+Description:  Translation for luci-app-wifischedule - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-wireguard-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 780
+Filename: luci-i18n-wireguard-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1593
+SHA256sum: 3e78378deb4691692730adbb2c3fd78f9c8bc418bd199781d5849f68fd5c6fb6
+Description:  Translation for luci-app-wireguard - Deutsch (German)
+
+Package: luci-i18n-wireguard-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 1214
+Filename: luci-i18n-wireguard-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2035
+SHA256sum: dc6743a4480b93fa6ed37654400f6726ce004865f6bafa91b2e0dff44fe4b630
+Description:  Translation for luci-app-wireguard - Español (Spanish)
+
+Package: luci-i18n-wireguard-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 965
+Filename: luci-i18n-wireguard-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1794
+SHA256sum: 270c69fd04af6178ff4cf88b70d7ccddee15985d40feb91cdee13344fc34ee6d
+Description:  Translation for luci-app-wireguard - 日本語 (Japanese)
+
+Package: luci-i18n-wireguard-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 922
+Filename: luci-i18n-wireguard-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1757
+SHA256sum: 9e361318f7af8366faf9e0775b06e0d807d4abfcbf99f18a8217f262eefa80e6
+Description:  Translation for luci-app-wireguard - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-wireguard-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 1049
+Filename: luci-i18n-wireguard-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1877
+SHA256sum: c565a630b3e9bcb63de7b263c4586e7fd4fb02bc840670bcb55aef5774ed3088
+Description:  Translation for luci-app-wireguard - Русский (Russian)
+
+Package: luci-i18n-wireguard-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 889
+Filename: luci-i18n-wireguard-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1707
+SHA256sum: c37dfb9016472e9e0a40bd109a0e63107be3adb9580e65aa8f45e495ceab83be
+Description:  Translation for luci-app-wireguard - Svenska (Swedish)
+
+Package: luci-i18n-wireguard-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 935
+Filename: luci-i18n-wireguard-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1770
+SHA256sum: 3be71a7bd854cfdc7f78c4d6044a3f491f7f9320014446dab55688f615501724
+Description:  Translation for luci-app-wireguard - 中文 (Chinese)
+
+Package: luci-i18n-wireguard-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wireguard
+Section: luci
+Architecture: all
+Installed-Size: 941
+Filename: luci-i18n-wireguard-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1780
+SHA256sum: 174b8af41522ca78e75ecb0dcbfb4ac3386f9d3c4adf7a3610df0db5adabe069
+Description:  Translation for luci-app-wireguard - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-wol-ca
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 812
+Filename: luci-i18n-wol-ca_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1619
+SHA256sum: 6aae175bb2f9e596e64e6f3a1524ce5741facd2ba6b1c976c89713384c79e814
+Description:  Translation for luci-app-wol - Català (Catalan)
+
+Package: luci-i18n-wol-cs
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 890
+Filename: luci-i18n-wol-cs_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1715
+SHA256sum: cc9f4ad5aef0ee7643177b8a9cfda1f57a3ffcbb5ba59e6b757b17bfe8579490
+Description:  Translation for luci-app-wol - Čeština (Czech)
+
+Package: luci-i18n-wol-de
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 826
+Filename: luci-i18n-wol-de_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1633
+SHA256sum: 08f7f74782e42d8b11c1fe4d0379c289994a3168d41804c5d84c09e8bc708023
+Description:  Translation for luci-app-wol - Deutsch (German)
+
+Package: luci-i18n-wol-el
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 330
+Filename: luci-i18n-wol-el_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1142
+SHA256sum: 34233940e1d6b5315fa3e84d489c6e20c0d73fb8610962d07bf859897646dd53
+Description:  Translation for luci-app-wol - Ελληνικά (Greek)
+
+Package: luci-i18n-wol-en
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 409
+Filename: luci-i18n-wol-en_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1201
+SHA256sum: 4fb3ebef9b6ffb2dff3996e0f1a86ae136494a2d6dec7b4e65ab983502c6399c
+Description:  Translation for luci-app-wol - English
+
+Package: luci-i18n-wol-es
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 823
+Filename: luci-i18n-wol-es_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1635
+SHA256sum: 138fc89af0e3751aa603d7f852a046b877ac6ab257185feea63ec913b8896adc
+Description:  Translation for luci-app-wol - Español (Spanish)
+
+Package: luci-i18n-wol-fr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 831
+Filename: luci-i18n-wol-fr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1644
+SHA256sum: cf0559b92594763de1be8e6e320d1f27a45b585b24f52f0b6ebaaa43e9991cd1
+Description:  Translation for luci-app-wol - Français (French)
+
+Package: luci-i18n-wol-he
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 333
+Filename: luci-i18n-wol-he_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1150
+SHA256sum: 2956f7767174074f1f0b529706868ba3f208aeebb4230a52ca048846dffe36f5
+Description:  Translation for luci-app-wol - עִבְרִית (Hebrew)
+
+Package: luci-i18n-wol-hu
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 835
+Filename: luci-i18n-wol-hu_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1642
+SHA256sum: c80be9517660d9944adb299f9ff13710f648bf21af4f8462dcc2795b154cdf2b
+Description:  Translation for luci-app-wol - Magyar (Hungarian)
+
+Package: luci-i18n-wol-it
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 829
+Filename: luci-i18n-wol-it_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1631
+SHA256sum: 7d944c75a93bb1940713f12ad7e2040c3c944082f49b9739b274b6a4813697fe
+Description:  Translation for luci-app-wol - Italiano (Italian)
+
+Package: luci-i18n-wol-ja
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 912
+Filename: luci-i18n-wol-ja_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1736
+SHA256sum: 000a31c22b59f49540c1799bb51761a39918e861fcdb61959b200dbd82e2c7e1
+Description:  Translation for luci-app-wol - 日本語 (Japanese)
+
+Package: luci-i18n-wol-ms
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 316
+Filename: luci-i18n-wol-ms_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1116
+SHA256sum: 8b2d423cc18e10d9c2fa76ca29c9a4fc8dad3d6a53f6651c6642d94dfc053a3d
+Description:  Translation for luci-app-wol - Bahasa Melayu (Malay)
+
+Package: luci-i18n-wol-no
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 790
+Filename: luci-i18n-wol-no_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1590
+SHA256sum: 5a4dae111cc3e66239ca80e719778a14cdf7f64788a5ba93e92019777edcfdbd
+Description:  Translation for luci-app-wol - Norsk (Norwegian)
+
+Package: luci-i18n-wol-pl
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 823
+Filename: luci-i18n-wol-pl_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1629
+SHA256sum: 253cf0dbfcd12f4e831445be3ca0af6e1d8c33926934c3e02b77054e17345af9
+Description:  Translation for luci-app-wol - Polski (Polish)
+
+Package: luci-i18n-wol-pt-br
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 842
+Filename: luci-i18n-wol-pt-br_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1676
+SHA256sum: f8c416b49919a8562dca43de1ba6d462e353d8199988f381892a395b60c841a6
+Description:  Translation for luci-app-wol - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-wol-pt
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 777
+Filename: luci-i18n-wol-pt_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1589
+SHA256sum: 76a93a23c61c1ec99aa3e456e4051a25267aee499df6732f6a398011e4c2256f
+Description:  Translation for luci-app-wol - Português (Portuguese)
+
+Package: luci-i18n-wol-ro
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 802
+Filename: luci-i18n-wol-ro_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1616
+SHA256sum: 693684dc655db3a0f5f1bac85a1e576b9e37b76915e89d0b37d9de2605be5d72
+Description:  Translation for luci-app-wol - Română (Romanian)
+
+Package: luci-i18n-wol-ru
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 1185
+Filename: luci-i18n-wol-ru_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2020
+SHA256sum: a486088b8339df621dbcb12eeff579d8068ad15f2257e39475edf2ebe1cb489f
+Description:  Translation for luci-app-wol - Русский (Russian)
+
+Package: luci-i18n-wol-sk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 319
+Filename: luci-i18n-wol-sk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1121
+SHA256sum: bd9386711592c0cb6d90cb4c69a3fc5368b75c7a44f4933b84837d932036daff
+Description:  Translation for luci-app-wol - Slovenčina (Slovak)
+
+Package: luci-i18n-wol-sv
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 872
+Filename: luci-i18n-wol-sv_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1673
+SHA256sum: 8997f0e6ec07f88e4ee28b3c5dfa48a6c851e703cbebf1324136307f87e2abbe
+Description:  Translation for luci-app-wol - Svenska (Swedish)
+
+Package: luci-i18n-wol-tr
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-wol-tr_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1122
+SHA256sum: 0d460146cf0480e8e234eb7cbe8185ec9b59d3d6ea6b242a369cae226ce8d013
+Description:  Translation for luci-app-wol - Türkçe (Turkish)
+
+Package: luci-i18n-wol-uk
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 1009
+Filename: luci-i18n-wol-uk_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1847
+SHA256sum: b1c4c70e8e5960a413e4026deeeed47c9089e63d32a739ffca55cdc266f0325c
+Description:  Translation for luci-app-wol - Українська (Ukrainian)
+
+Package: luci-i18n-wol-vi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 330
+Filename: luci-i18n-wol-vi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1143
+SHA256sum: 45fa1689601c16ebdfe0f08cdb5b49c80fb90bd58c5b013541c1a453b768f04e
+Description:  Translation for luci-app-wol - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-wol-zh-cn
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 854
+Filename: luci-i18n-wol-zh-cn_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1677
+SHA256sum: f16696201c86456c18331607fb1b8ef3af3a64fc82ba22ee3d540a588d409575
+Description:  Translation for luci-app-wol - 中文 (Chinese)
+
+Package: luci-i18n-wol-zh-tw
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-app-wol
+Section: luci
+Architecture: all
+Installed-Size: 865
+Filename: luci-i18n-wol-zh-tw_git-19.237.58470-6f114fb-1_all.ipk
+Size: 1705
+SHA256sum: aa57f402c6deba02ca4cd796df5df46b6ac07366ebad1638278c03d91022dcf4
+Description:  Translation for luci-app-wol - 臺灣華語 (Taiwanese)
+
+Package: luci-lib-httpclient
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-base, luci-lib-nixio, luci-lib-httpprotoutils
+Section: luci
+Architecture: all
+Installed-Size: 5065
+Filename: luci-lib-httpclient_git-19.237.58470-6f114fb-1_all.ipk
+Size: 5761
+SHA256sum: df0cfae477d7a39831dc2801e850005cb6cf6af2337c57539e5fad1905daa255
+Description:  HTTP(S) client library
+
 Package: luci-lib-httpprotoutils
 Version: git-19.237.58470-6f114fb-1
 Depends: libc, luci-base
@@ -7335,6 +9827,17 @@ Filename: luci-lib-ipkg_git-19.237.58470-6f114fb-1_all.ipk
 Size: 2793
 SHA256sum: 1bf0580f69cdd8e80205ca3b16e4119188201e21593ddf1069b92b8cf738b48f
 Description:  Legacy opkg interface class
+
+Package: luci-lib-iptparser
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 3311
+Filename: luci-lib-iptparser_git-19.237.58470-6f114fb-1_all.ipk
+Size: 4019
+SHA256sum: 195ea48f2e77bb75c9a035651649f799fa74e7fc9da6877338a6fb15abe06870
+Description:  Iptables listing parser class
 
 Package: luci-lib-json
 Version: git-19.237.58470-6f114fb-1
@@ -7381,6 +9884,18 @@ Filename: luci-lib-nixio_git-19.237.58470-6f114fb-1_mipsel_24kc.ipk
 Size: 28365
 SHA256sum: 4279060303c7936d9dc3cefb55a9cc260111f7417201e2f8ab637749b74395b1
 Description:  NIXIO POSIX library
+
+Package: luci-lib-px5g
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, liblua5.1.5
+License: LGPL-2.1
+Section: luci
+Architecture: mipsel_24kc
+Installed-Size: 30170
+Filename: luci-lib-px5g_git-19.237.58470-6f114fb-1_mipsel_24kc.ipk
+Size: 30908
+SHA256sum: 14c1b6521ec9c838b193ba52fc3f1bf15d35194c5e7554d0dee16a57a9ab4db1
+Description:  RSA/X.509 Key Generator (required for LuCId SSL support)
 
 Package: luci-mod-admin-full
 Version: git-19.237.58470-6f114fb-1
@@ -7441,6 +9956,17 @@ Size: 19074
 SHA256sum: a5376fa39ec9a161bd6dcaf0a894cc17d72ad8858d99958c66ca264104d160b3
 Description:  LuCI Administration - Global System Settings
 
+Package: luci-proto-3g
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, comgt
+Section: luci
+Architecture: all
+Installed-Size: 2090
+Filename: luci-proto-3g_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2783
+SHA256sum: 2227da8a05e19cfbd7687a504ffb8d76f56751c4e61815093d0d7992da0f1b76
+Description:  Support for 3G
+
 Package: luci-proto-hnet
 Version: git-19.237.58470-6f114fb-1
 Depends: libc
@@ -7452,6 +9978,17 @@ Filename: luci-proto-hnet_git-19.237.58470-6f114fb-1_all.ipk
 Size: 1779
 SHA256sum: e62893e80b571070807e385249a015c1a4e2ec7734421fc07d53d50abc5ec108
 Description:  Support for hnet
+
+Package: luci-proto-ipip
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, ipip
+Section: luci
+Architecture: all
+Installed-Size: 1237
+Filename: luci-proto-ipip_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2013
+SHA256sum: 4f774c8b2456275f99fe2300e64ed0e1209d841071bef3548080b5d021af4223
+Description:  Support for IPIP tunnels (IPv4-in-IPv4 RFC2003)
 
 Package: luci-proto-ipv6
 Version: git-19.237.58470-6f114fb-1
@@ -7465,6 +10002,28 @@ Size: 4060
 SHA256sum: 9c1ac73ddc3dc1580457c4372173e173d72aec0d17d8344f0924bd3754ca9484
 Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
 
+Package: luci-proto-ncm
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, comgt-ncm
+Section: luci
+Architecture: all
+Installed-Size: 2133
+Filename: luci-proto-ncm_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2828
+SHA256sum: e0f3464f6c0f0988bc16a5bf413631eb97b8ebeb39d9a7e40847cdac4356d40c
+Description:  Support for NCM
+
+Package: luci-proto-openconnect
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, openconnect
+Section: luci
+Architecture: all
+Installed-Size: 1482
+Filename: luci-proto-openconnect_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2175
+SHA256sum: ee73cb26d75972c06d3735065f6ae664391fc54725ec9f5a2c9f3db87b9974c1
+Description:  Support for OpenConnect VPN
+
 Package: luci-proto-ppp
 Version: git-19.237.58470-6f114fb-1
 Depends: libc
@@ -7476,6 +10035,63 @@ Filename: luci-proto-ppp_git-19.237.58470-6f114fb-1_all.ipk
 Size: 3410
 SHA256sum: 085f62e5280ab574b9dfec6c3ef9eead17b1cc4c3e3534970ff6948847f93e38
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-pppossh
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, pppossh
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1864
+Filename: luci-proto-pppossh_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2598
+SHA256sum: 65af65f6120537ab12226c8df688ef538a427eb0de068f6be097bb74208bde72
+Description:  Support for pppossh
+
+Package: luci-proto-qmi
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, uqmi
+Section: luci
+Architecture: all
+Installed-Size: 1490
+Filename: luci-proto-qmi_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2209
+SHA256sum: 92db634ba985ce5b0738526dc5dc84d2a5da442f2fb741fc6c04d06381281df5
+Description:  Support for QMI
+
+Package: luci-proto-relay
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, relayd
+Section: luci
+Architecture: all
+Installed-Size: 1868
+Filename: luci-proto-relay_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2568
+SHA256sum: 2168f6398ceab554e83cce3ae07c9b6999bea5e7ae10de31ffb182434eaf0ddd
+Description:  Support for relayd pseudo bridges
+
+Package: luci-proto-vpnc
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, vpnc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1617
+Filename: luci-proto-vpnc_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2366
+SHA256sum: 92fe53f74195d3dbc48d9cea3d267de34e9d61c2f9dbe0a3de8d7ef2ea586aa2
+Description:  Support for VPNC VPN
+
+Package: luci-proto-wireguard
+Version: git-19.237.58470-6f114fb-1
+Depends: libc, kmod-wireguard, wireguard-tools
+Section: luci
+Architecture: all
+Installed-Size: 2042
+Filename: luci-proto-wireguard_git-19.237.58470-6f114fb-1_all.ipk
+Size: 2761
+SHA256sum: 3ed4db5b175688b5d2c73baec7713839ed70ad453e1131adc634b70dabfb20f5
+Description:  Support for WireGuard VPN
 
 Package: luci-theme-bootstrap
 Version: git-19.237.58470-6f114fb-1

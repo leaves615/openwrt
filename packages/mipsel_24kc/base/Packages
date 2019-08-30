@@ -891,6 +891,37 @@ Size: 22745
 SHA256sum: 3c9a725c8a552e94d79b4f7cc3280a0916163c43c54b52760510cba2742c139e
 Description:  dmesg  is used to examine or control the kernel ring buffer
 
+Package: dnsmasq-dhcpv6
+Version: 2.80-14
+Depends: libc, libubus20170705
+Provides: dnsmasq
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 120275
+Filename: dnsmasq-dhcpv6_2.80-14_mipsel_24kc.ipk
+Size: 121161
+SHA256sum: aa437433f59f623631385bcadee14daec7256a0571f9bde863b8ec0e4551361a
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6 support
+
+Package: dnsmasq-full
+Version: 2.80-14
+Depends: libc, libubus20170705, libnettle7, kmod-ipt-ipset, libnetfilter-conntrack3
+Provides: dnsmasq
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 138554
+Filename: dnsmasq-full_2.80-14_mipsel_24kc.ipk
+Size: 139504
+SHA256sum: 74fa52cb849bbfe7e303af5414db697b13372ebf1804f139d287dae3a140f16b
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and IPset, Conntrack support & NO_ID enabled by default.
+
 Package: dnsmasq
 Version: 2.80-14
 Depends: libc, libubus20170705
@@ -1253,10 +1284,10 @@ Depends: libc
 License: GPL-2.0+
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1457
+Installed-Size: 14125
 Filename: igmpproxy_0.2.1-4_mipsel_24kc.ipk
-Size: 2304
-SHA256sum: df3ab65bea74e1c06aa29a776cc92838809ec48338a5e7c143b873bbd90295de
+Size: 14944
+SHA256sum: f22929b4e8a80c953758cd993ff0567fdffca0c520d11fef9c39a6092fda21a3
 Description:  IGMPproxy is a simple dynamic Multicast Routing Daemon using
  only IGMP signalling (Internet Group Management Protocol).
 
@@ -1313,6 +1344,18 @@ SHA256sum: 60ae4d66d4ec589e822cb2af6feed707d1928a2ef55b38f31a4c0ba465cb5e41
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
+
+Package: ipip
+Version: 1-3
+Depends: libc, kmod-ipip, resolveip
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 899
+Filename: ipip_1-3_all.ipk
+Size: 1646
+SHA256sum: 49e30f35eaa9e28634d036120752edaf44d2619e9757cee2c248fc3ab54db9ba
+Description:  IP in IP Tunnel config support in /etc/config/network.
 
 Package: ipset-dns
 Version: 2017-10-08-ade2cf88-1
@@ -1709,10 +1752,10 @@ Provides: libbsd
 License: BSD-4-Clause
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 139
+Installed-Size: 32167
 Filename: libbsd0_0.8.7-3_mipsel_24kc.ipk
-Size: 966
-SHA256sum: ff5692cefc0981b0b8df5d76f1f88b784fc8829d5f3b561beab4b9dfb605f4b9
+Size: 33015
+SHA256sum: 2155ae7db0187e82fd64802e855f2ecaaf7b16a83806ccdf7fa844a0bb39843a
 Description:  This library provides useful functions commonly found on BSD systems, and lacking on others like GNU systems, thus making it easier to port projects with strong BSD origins, without needing to embed the same code over and over again on each project.
 
 Package: libbz2-1.0
@@ -1763,10 +1806,10 @@ Provides: libconfig
 License: LGPL-2.1+
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 139
+Installed-Size: 14614
 Filename: libconfig11_1.7.2-2_mipsel_24kc.ipk
-Size: 1123
-SHA256sum: c88a27b073e25dbdf6691c37f130d167486b721a73f2076c6453a1ad1dea8548
+Size: 15591
+SHA256sum: d7e2d549cede21217074fa48d10e54c9c21f00c87f1d79baf426f678ae097636
 Description:  Libconfig is a simple library for manipulating structured configuration
  files. This file format is more compact and more readable than XML. And
  unlike XML, it is type-aware, so it is not necessary to do string
@@ -1848,6 +1891,126 @@ Filename: libertas-usb-firmware_20190815-1_mipsel_24kc.ipk
 Size: 217319
 SHA256sum: 7d33ef666000f7df42de763cbf27f0dbf11de3543c68d2b44bb63bb4c62771ab
 Description:  Marvell 8388/8682 USB firmware
+
+Package: libevent2-6
+Version: 2.1.8-3
+Depends: libc
+Provides: libevent2
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 104727
+Filename: libevent2-6_2.1.8-3_mipsel_24kc.ipk
+Size: 105869
+SHA256sum: f0ff884cc95fb821111698b57a22d587555b5ce62131a0ea12fb01d5e723f815
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core6
+Version: 2.1.8-3
+Depends: libc
+Provides: libevent2-core
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 61988
+Filename: libevent2-core6_2.1.8-3_mipsel_24kc.ipk
+Size: 63142
+SHA256sum: aeee47f4d84291f2bebfac46fcb78e20a6c6af23c68c9384b833aded3c554b26
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra6
+Version: 2.1.8-3
+Depends: libc
+Provides: libevent2-extra
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 46762
+Filename: libevent2-extra6_2.1.8-3_mipsel_24kc.ipk
+Size: 47885
+SHA256sum: 68bb34ac10be2bf3d92bb7fb9efa0bc3344a8ec566798a0ff52d7a76ce251099
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl6
+Version: 2.1.8-3
+Depends: libc, libopenssl1.1
+Provides: libevent2-openssl
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 7587
+Filename: libevent2-openssl6_2.1.8-3_mipsel_24kc.ipk
+Size: 8671
+SHA256sum: d2b52d1ea7296ae3f23b7c1456ecb000ba8833060ea0efdcf5e102b41a847df2
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads6
+Version: 2.1.8-3
+Depends: libc, libpthread
+Provides: libevent2-pthreads
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 1970
+Filename: libevent2-pthreads6_2.1.8-3_mipsel_24kc.ipk
+Size: 3019
+SHA256sum: 95391e5184173cba96b2365ba91b0bfc1717b895926d131b57d6ba2bc0013477
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
 
 Package: libext2fs2
 Version: 1.44.5-1
@@ -3513,6 +3676,18 @@ Size: 15426
 SHA256sum: 51dbcf6fc52fc883dd5a419727e2b66175ab3c161b634f89562677f2845ba145
 Description:  Network rdma utility
 
+Package: relayd
+Version: 2016-02-07-ad0b25ad-2
+Depends: libc, libubox20170601
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 8999
+Filename: relayd_2016-02-07-ad0b25ad-2_mipsel_24kc.ipk
+Size: 9769
+SHA256sum: b6759a74f417cb7fecca7d063ff836b395d8fbf1d3db7679b08583296dcb0345
+Description:  Transparent routing / relay daemon
+
 Package: rename
 Version: 2.34-1
 Depends: libc, librt
@@ -4070,6 +4245,32 @@ Size: 9699
 SHA256sum: c58dbff128816c9d2c336bac866d54b3a13cf05bfeed494a83d18b7e2b06daad
 Description:  OpenWrt RPC daemon
 
+Package: ucert-full
+Version: 2018-09-18-e1c722b1-1
+Depends: libc, usign, libubox20170601, libjson-c4, libblobmsg-json
+Provides: ucert
+License: GPL-3.0+
+Section: base
+Architecture: mipsel_24kc
+Installed-Size: 6311
+Filename: ucert-full_2018-09-18-e1c722b1-1_mipsel_24kc.ipk
+Size: 7152
+SHA256sum: 6c83a0bfb54cc12d4f8cdc3029f0f584770e2011a2b6b1ac549444d5263246c9
+Description:  OpenWrt certificate generation and verification utility
+
+Package: ucert
+Version: 2018-09-18-e1c722b1-1
+Depends: libc, usign, libubox20170601
+Conflicts: ucert-full
+License: GPL-3.0+
+Section: base
+Architecture: mipsel_24kc
+Installed-Size: 4223
+Filename: ucert_2018-09-18-e1c722b1-1_mipsel_24kc.ipk
+Size: 4993
+SHA256sum: 1cf8c465b43a751707fab8481bba21612bae33ffef04118b4cb6b223b9fcfbe7
+Description:  OpenWrt certificate verification utility
+
 Package: uci
 Version: 2019-05-17-f199b961-3
 Depends: libc, libuci20130104
@@ -4376,6 +4577,43 @@ SHA256sum: 83be25b6d5c441a5f4365dfeebc67a5372be0eab1e033d83b5e43c698c083f92
 Description:  wipefs can erase filesystem, raid or partition table signatures (magic
  strings) from the specified device to make the signature invisible for
  libblkid.
+
+Package: wireguard-tools
+Version: 0.0.20190702-1
+Depends: libc, libmnl0, ip
+License: GPL-2.0 Apache-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 27965
+Filename: wireguard-tools_0.0.20190702-1_mipsel_24kc.ipk
+Size: 29078
+SHA256sum: 2b8d1be80ad87495360dc9300b63168ba5072165ba8064ecf340f3a901f6cb38
+Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
+ state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
+ more useful than IPSec, while avoiding the massive headache. It intends to
+ be considerably more performant than OpenVPN.  WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and super computers
+ alike, fit for many different circumstances. It uses UDP.
+ 
+ This package provides the userspace control program for WireGuard,
+ `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+
+Package: wireguard
+Version: 0.0.20190702-1
+Depends: libc, wireguard-tools, kmod-wireguard
+License: GPL-2.0 Apache-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 105
+Filename: wireguard_0.0.20190702-1_mipsel_24kc.ipk
+Size: 1168
+SHA256sum: 35998b200f8e1fcf69a7972778e76d62613cef6d8ca1ead0891b2c716a251236
+Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
+ state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
+ more useful than IPSec, while avoiding the massive headache. It intends to
+ be considerably more performant than OpenVPN.  WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and super computers
+ alike, fit for many different circumstances. It uses UDP.
 
 Package: wireless-regdb
 Version: 2019.06.03

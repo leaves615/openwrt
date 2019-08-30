@@ -8,10 +8,10 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Alex Samorukov <samm@os2.kiev.ua>
 Architecture: mipsel_24kc
-Installed-Size: 139
+Installed-Size: 29281
 Filename: bcg729_1.0.4-3_mipsel_24kc.ipk
-Size: 1027
-SHA256sum: 7089b915a3e86a0824674e5850436ef4f1841b8597f9b10753854d4e2446df4a
+Size: 30184
+SHA256sum: 1af81c63880421af26d65f9abe5c436a038fd988ef099a65a4755109959de540
 Description:  Bcg729 is a software G729A encoder and decoder library written in C, developed
  by Belledonne Communications, the company supporting the Linphone project.
  It was written from scratch and is NOT a derivative work of ITU reference

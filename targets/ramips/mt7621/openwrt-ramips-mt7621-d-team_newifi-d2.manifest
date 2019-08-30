@@ -2,6 +2,7 @@ adblock - 3.8.2-1
 attendedsysupgrade-common - 0.2-1
 attr - 2.4.48-2
 avahi-dbus-daemon - 0.7-3
+bandwidthd-sqlite - 2.0.1-35-2
 base-files - 205-unknown
 bind-client - 9.14.4-1
 bind-libs - 9.14.4-1
@@ -124,6 +125,7 @@ liblucihttp0 - 2019-07-05-a34a17d5-1
 libmbedtls12 - 2.16.2-1
 libncurses6 - 6.1-4
 libnl-tiny - 0.1-5
+libopensc - 0.19.0-1
 libopenssl-conf - 1.1.1c-1
 libopenssl1.1 - 1.1.1c-1
 libpcap1 - 1.9.0-2
@@ -203,6 +205,11 @@ odhcpd-ipv6only - 2019-05-17-41a74cba-3
 openssl-util - 1.1.1c-1
 openwrt-keyring - 2019-07-25-8080ef34-1
 opkg - 2019-06-14-dcbc142e-1
+php7 - 7.2.21-1
+php7-cgi - 7.2.21-1
+php7-mod-gd - 7.2.21-1
+php7-mod-pdo - 7.2.21-1
+php7-mod-pdo-sqlite - 7.2.21-1
 ppp - 2.4.7.git-2019-05-25-2
 ppp-mod-pppoe - 2.4.7.git-2019-05-25-2
 procd - 2019-08-22-95580316-1
@@ -224,6 +231,7 @@ uhttpd-mod-ubus - 2019-08-17-6b03f960-3
 urandom-seed - 1.0-1
 urngd - 2019-06-17-c057e177-1
 usign - 2019-08-06-5a52b379-1
+wget - 1.20.3-1
 wireless-regdb - 2019.06.03
 wpad-basic - 2018-12-02-c2c6c01b-7
 wsdd2 - 2018-07-24-2c31ba3b-3
