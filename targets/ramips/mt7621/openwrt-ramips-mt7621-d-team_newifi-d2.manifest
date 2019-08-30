@@ -41,7 +41,7 @@ iwinfo - 2019-06-12-1372f47e-1
 jpeg-tools - 9c-2
 jshn - 2019-06-16-ecf56174-1
 jsonfilter - 2018-02-04-c7e938d6-1
-kernel - 4.14.138-1-03d92059f6a167758988a2d102331c74
+kernel - 4.14.138-1-719a7f1b542d5dd829a15055d8a28746
 kmod-cfg80211 - 4.14.138+5.3-rc4-1-1
 kmod-crypto-crc32c - 4.14.138-1
 kmod-crypto-hash - 4.14.138-1
